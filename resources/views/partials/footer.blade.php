@@ -1,0 +1,60 @@
+<div class="flex flex-col items-center justify-center  w-full">
+    <footer id="footer" class="bg-black w-full">
+        {{-- transform translate-x-1/12 --}}
+        <div class="w-11/12 mx-auto mt-32">
+            <div class="flex flex-wrap justify-between">
+                <div class="flex flex-col items-start text-white">
+                    <span class="text-6xl mt-10"><strong>Let's Talk About</strong></span>
+                    <span class="text-6xl my-6"><strong>Your Project</strong></span>
+                    <span class="mb-16">
+                        <button class="btn">Start Your Project</button>
+                    </span>
+                </div>
+                <img class="transform lg:-translate-x-6 " src="{{ asset('assets/icons/footer/icon.svg') }}"
+                    alt="Logo">
+            </div>
+        </div>
+        <div class="flex flex-wrap max-content justify-evenly w-11/12 mx-auto mt-10 mb-20 gap-y-4">
+            @component('components.footer-card', [
+                'location' => 'Lebanon',
+                'description' => 'Aramex Building, 1st Floor, Mirna Chalouhi Highway – Lebanon',
+                'phone' => '+961 1 485 075',
+            ])
+            @endcomponent
+            @component('components.footer-card', [
+                'location' => 'UAE',
+                'description' => 'Location goes here',
+                'phone' => '+961 1 485 075',
+            ])
+            @endcomponent
+            @component('components.footer-card', [
+                'location' => 'Kuwait',
+                'description' => 'Location goes here',
+                'phone' => '+961 1 485 075',
+            ])
+            @endcomponent
+
+        </div>
+
+        <hr class="border-white/20 mt-28" />
+
+        <div class="w-11/12 mb-6 mt-3 mx-auto">
+            <div class="flex justify-between flex-wrap">
+                <div class="flex items-center max-content justify-between">
+                    <span class="text-xs text-white/50 sm:text-center font-thin">© 2024. All Rights Reserved. Copyrights
+                        <strong class="text-white"><u> <a href="/">Launchpad</a></u></strong>
+                    </span>
+                    <span class="text-xs text-white/50 sm:text-center font-thin">. Web Design & Development By
+                        <strong class="text-white"><u> <a href="https://thewebaddicts.com/">The Web
+                                    Addicts</a></u></strong>.
+                    </span>
+                </div>
+                <div class="flex items-center justify-around text-white/80 font-thin space-x-5">
+                    <a href="/">Terms & Conditions</a>
+                    <a href="/">Privacy Policy</a>
+                    <a href="/">Cookies Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>

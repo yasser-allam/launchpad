@@ -1,0 +1,57 @@
+// .header-container {
+//     @apply mx-auto main-container fixed z-[990] top-0 twenty-px font-semibold w-full bg-black lg:h-[80px] h-[60px] text-white flex items-center justify-between;
+//     .btn {
+//         @apply hover:bg-white hover:text-blue hover:border-white;
+
+//         &.white{
+//             @apply hover:bg-blue hover:text-white hover:border-blue;
+//         }
+//     }
+//     .logo {
+//         @apply lg:w-[200px] md:w-[150px] w-[120px];
+//     }
+//     .links-container {
+//         @apply lg:flex hidden items-center gap-x-6 h-full;
+//     }
+//     .drop-down {
+//         @apply main-container grid grid-cols-2 gap-x-5 w-full bg-white text-black absolute top-[80px] right-0 py-6 twenty-px;
+//     }
+//     .services-container {
+//         @apply grid lg:grid-cols-2 grid-cols-2 gap-4 pl-[10%] lg:pt-0 pt-5;
+//     }
+//     .mobile-menu-dimmer {
+//         @apply fixed top-0 left-0 right-0 bottom-0 bg-black opacity-30 z-40;
+//     }
+//     .mobile-menu {
+//         @apply fixed top-0 h-dvh right-0 w-[300px] bg-black z-50;
+
+//         .close {
+//             @apply flex  h-16 justify-end items-center text-2xl;
+//         }
+//         .mobile-link {
+//             @apply text-[11px];
+//         }
+//         .fa-caret-down {
+//             --tw-text-opacity: 1;
+//             color: rgb(33 220 107 / var(--tw-text-opacity));
+//         }
+//     }
+// }
+
+// footer {
+//     .btn {
+//         @apply bg-white hover:bg-transparent hover:border-white border-white rounded-none text-black hover:text-white;
+//     }
+//     .footer {
+//         @apply main-container bg-black text-white;
+//         .nda-styles {
+//             @apply sixteen-px font-open-sans mt-2;
+//         }
+//         .info-container {
+//             @apply flex md:flex-row flex-col lg:items-center lg:gap-0 gap-6 justify-between mt-3;
+//             .links-container {
+//                 @apply lg:w-[55%] h-full grid grid-cols-2;
+//             }
+//         }
+//     }
+// }

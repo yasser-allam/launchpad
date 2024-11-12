@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "menus";
+@import "buttons/glowing-btn";
+@import "asp.scss";
+
+body {
+    @apply flex flex-col min-h-screen font-semibold bg-gray-400;
+    font-family: "Montserrat";
+}
+
+.blue {
+    @apply text-[#1578FF];
+}
