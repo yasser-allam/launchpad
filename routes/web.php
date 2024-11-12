@@ -9,3 +9,7 @@ Route::get('/', function () {
 Route::get('/about-us', function(){
     return view('pages.about-us');
 });
+
+Route::get('/procut-details', function(){
+    return view('pages.product-details');
+});

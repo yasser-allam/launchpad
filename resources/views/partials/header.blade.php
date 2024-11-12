@@ -1,6 +1,6 @@
 <div class="flex justify-center">
     <nav id="navbar"
-        class=" fixed top-8 w-11/12 h-[70px] flex justify-between items-center z-20 shadow-2xl rounded-lg px-10
+        class=" fixed mx-auto top-8 w-11/12 h-[70px] flex justify-between items-center z-20 shadow-2xl rounded-lg px-10
         bg-red-800">
         <div class="flex justify-center">
             <a href="/">

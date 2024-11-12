@@ -69,18 +69,18 @@
 
     <div class="w-full h-[810px] flex mb-20 text-white">
         <div class="bg-black w-1/2">
-            <div class="flex flex-col p-20 space-y-6">
+            <div class="flex flex-col p-20 space-y-8">
                 @component('components.image_asp.image', [
                     'url' => 'assets/about-us/how-we-do-it.png',
                     'alt' => 'how we do it img',
                     'ratio' => '2-1',
-                    'classes' => '',
+                    'classes' => 'mb-4',
                     'fit' => 'cover',
                 ])
                 @endcomponent
-                <h2 class="text-4xl font-extrabold">How We Do It</h2>
-                <p class="font-thin ">We specialize in providing comprehensive e-commerce consultancy by fully understanding
-                    your operations
+                <h2 class="text-3xl font-extrabold">How We Do It</h2>
+                <p class="font-light ">We specialize in providing comprehensive e-commerce consultancy by fully
+                    understanding your operations
                     and business goals. We assess your online presence and check the foundations for a successful launch. By
                     addressing gaps and suggesting efficient solutions, we work collaboratively with your team to ensure
                     revenue generation to your business through our services. To be able to maintain the stability of the
@@ -88,17 +88,17 @@
             </div>
         </div>
         <div class="bg-black/50 w-1/2">
-            <div class="flex flex-col p-20 space-y-6">
+            <div class="flex flex-col p-20 space-y-8">
                 @component('components.image_asp.image', [
                     'url' => 'assets/about-us/why-we-do-it.png',
                     'alt' => 'why we do it img',
                     'ratio' => '2-1',
-                    'classes' => '',
+                    'classes' => 'mb-4',
                     'fit' => 'cover',
                 ])
                 @endcomponent
-                <h2 class="text-4xl font-extrabold">Why We Do It</h2>
-                <p class="font-thin ">As a team of passionate experts in technology and operations, we’re excited to apply
+                <h2 class="text-3xl font-extrabold">Why We Do It</h2>
+                <p class="font-light ">As a team of passionate experts in technology and operations, we’re excited to apply
                     our in-depth
                     knowledge to enhance your business at its core.</p>
             </div>
