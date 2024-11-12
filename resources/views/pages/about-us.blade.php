@@ -67,13 +67,12 @@
         </div>
     </div>
 
-    <div class="w-full h-[650px] flex mb-20 text-white">
+    <div class="w-full h-[810px] flex mb-20 text-white">
         <div class="bg-black w-1/2">
-            <div></div>
-            <div class="flex flex-col p-10 space-y-6">
+            <div class="flex flex-col p-20 space-y-6">
                 @component('components.image_asp.image', [
                     'url' => 'assets/about-us/how-we-do-it.png',
-                    'alt' => 'img',
+                    'alt' => 'how we do it img',
                     'ratio' => '2-1',
                     'classes' => '',
                     'fit' => 'cover',
@@ -89,8 +88,15 @@
             </div>
         </div>
         <div class="bg-black/50 w-1/2">
-            <div class="flex flex-col p-10 space-y-6">
-                <img src="{{ asset('assets/about-us/why-we-do-it.png') }}" alt="">
+            <div class="flex flex-col p-20 space-y-6">
+                @component('components.image_asp.image', [
+                    'url' => 'assets/about-us/why-we-do-it.png',
+                    'alt' => 'why we do it img',
+                    'ratio' => '2-1',
+                    'classes' => '',
+                    'fit' => 'cover',
+                ])
+                @endcomponent
                 <h2 class="text-4xl font-extrabold">Why We Do It</h2>
                 <p class="font-thin ">As a team of passionate experts in technology and operations, we’re excited to apply
                     our in-depth
