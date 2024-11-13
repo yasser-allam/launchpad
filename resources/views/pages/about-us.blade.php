@@ -69,8 +69,9 @@
 
     <div class="w-full flex mb-20 text-white">
         <div class="bg-black w-1/2">
-            <div class="flex flex-col p-20 gap-y-8">
-                <div class="overflow-hidden rounded-3xl mb-6 relative">
+            {{-- p-22~ so p-20 or p-24 below --}}
+            <div class="flex flex-col p-[4.3vw] gap-y-8">
+                <div class="overflow-hidden rounded-2xl mb-6 relative">
                     @component('components.image_asp.image', [
                         'url' => 'assets/about-us/how-we-do-it.png',
                         'alt' => 'how we do it img',
@@ -91,8 +92,8 @@
             </div>
         </div>
         <div class="bg-[#3A3A3A] w-1/2">
-            <div class="flex flex-col p-20 gap-y-8">
-                <div class="overflow-hidden rounded-3xl mb-6 relative">
+            <div class="flex flex-col p-[4.3vw] gap-y-8">
+                <div class="overflow-hidden rounded-2xl mb-6 relative">
                     @component('components.image_asp.image', [
                         'url' => 'assets/about-us/why-we-do-it.png',
                         'alt' => 'why we do it img',
