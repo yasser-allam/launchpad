@@ -11,6 +11,16 @@ body {
     font-family: "Montserrat";
 }
 
+.main-container {
+    @apply w-11/12 mx-auto;
+    // @apply w-full mx-auto px-[5vw];
+}
+
 .blue {
     @apply text-[#1578FF];
+}
+
+.overlay {
+    @apply bg-[#1578FF]/30 absolute top-0 left-0 w-full h-full;
+    content: "";
 }

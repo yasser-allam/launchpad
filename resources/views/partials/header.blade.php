@@ -1,6 +1,6 @@
 <div class="flex justify-center">
     <nav id="navbar"
-        class=" fixed mx-auto top-8 w-11/12 h-[70px] flex justify-between items-center z-20 shadow-2xl rounded-lg px-10
+        class="fixed top-8 w-11/12 mx-auto pl-[2vw] h-[70px] flex justify-between items-center z-20 shadow-2xl rounded-lg
         bg-red-800">
         <div class="flex justify-center">
             <a href="/">
@@ -15,9 +15,13 @@
             <a class="" href="/">Our Work</a>
             <a class="" href="/">Contact Us</a>
         </div>
-        {{-- transform -translate-x-[30px] -translate-y-[30px] --}}
-        <div class="flex items-center p-10">
+
+        {{-- <div class="flex items-center p-10">
             <button class="btn font-lg transform -translate-x-[210px]">Start Your Project</button>
+        </div> --}}
+
+        <div class="flex items-center w-1/6 relative">
+            <button class="btn font-lg absolute">Start Your Project</button>
         </div>
     </nav>
 </div>

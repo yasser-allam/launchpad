@@ -14,7 +14,7 @@
                     alt="Logo">
             </div>
         </div>
-        <div class="flex flex-wrap max-content justify-evenly w-11/12 mx-auto mt-10 mb-20 gap-y-4">
+        <div class="flex flex-wrap max-content justify-between w-11/12 mx-auto mt-10 mb-20 gap-y-4 gap-x-3">
             @component('components.footer-card', [
                 'location' => 'Lebanon',
                 'description' => 'Aramex Building, 1st Floor, Mirna Chalouhi Highway – Lebanon',

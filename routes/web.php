@@ -13,3 +13,7 @@ Route::get('/about-us', function(){
 Route::get('/procut-details', function(){
     return view('pages.product-details');
 });
+
+Route::get('/test', function(){
+    return view('pages.test');
+});
