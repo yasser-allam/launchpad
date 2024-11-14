@@ -1,10 +1,20 @@
 @extends('layouts.main')
 @section('main-content')
-    <div class="h-screen w-full">
-        <div class="m-[500px]">
-            <div class="flex items-center relative">
-                <button class="btn font-lg absolute top-0 left-0">Start Your Project</button>
-            </div>
+    <!-- Cover Section -->
+    <div id="cover" class="h-screen w-full bg-red-800 ">
+        <div class="h-full w-full flex items-center justify-around">
+            @component('components.image_asp.image', [
+                'url' => 'assets/products/main.png',
+                'alt' => 'card img',
+                'ratio' => '5-6',
+                'classes' => '',
+                'fit' => 'cover',
+            ])
+            @endcomponent
+
         </div>
     </div>
+
+
+    <div class="bg-green-700 h-screen w-full"></div>
 @endsection

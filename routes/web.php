@@ -10,6 +10,10 @@ Route::get('/about-us', function(){
     return view('pages.about-us');
 });
 
+Route::get('/products', function(){
+    return view('pages.products');
+});
+
 Route::get('/prodcut-details', function(){
     return view('pages.product-details');
 });

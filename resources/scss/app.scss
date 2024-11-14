@@ -25,3 +25,7 @@ body {
     @apply bg-[#1578FF]/30 absolute top-0 left-0 w-full h-full;
     content: "";
 }
+.overlay2 {
+    @apply bg-[rgba(0,0,0,0.7)] absolute top-0 left-0 w-full h-full;
+    content: "";
+}
