@@ -1,23 +1,81 @@
+// .btn {
+//     @apply uppercase text-white flex items-center justify-center py-7 hover:text-black hover:bg-white;
+//     // color: white;lg:p-6 lg:m-3
+//     // display: flex;
+//     // align-items: center;
+//     // justify-content: center;
+//     // text-decoration: none;
+// }
+
+// .btn,
+// .btn-glow {
+//     @apply absolute overflow-hidden z-0 max-h-[20px] max-w-[260px] h-full w-full rounded-full;
+//     // position: absolute;
+//     // overflow: hidden;
+//     // z-index: 0;
+//     // max-width: 260px;
+//     // max-height: 60px;
+//     // height: 100%;
+//     // width: 100%;
+//     // border-radius: 35px;
+// }
+
+// .btn::before,
+// .btn-glow::before {
+//     @apply absolute w-72 h-72 top-1/2 left-1/2 bg-no-repeat bg-[0_0] -z-10 transform -translate-x-1/2 -translate-y-1/2 rotate-0;
+//     content: "";
+//     background-image: conic-gradient(
+//         rgba(0, 0, 0, 0),
+//         rgba(255, 255, 255, 0.5),
+//         rgba(0, 0, 0, 0) 25%
+//     );
+//     animation: glow 3s linear infinite;
+//     // width: 9999px;
+//     // height: 9999px;
+//     // top: 50%;
+//     // left: 50%;
+//     // background-repeat: no-repeat;
+//     // background-position: 0 0;
+//     // position: absolute;
+//     // transform: translate(-50%, -50%) rotate(0deg);
+//     // z-index: -2;
+// }
+
+// // .btn-glow {
+// //     filter: blur(25px);
+// // }
+
+// .btn:after {
+//     @apply absolute -z-10 rounded-full bg-black w-[calc(100%-3px)] h-[calc(100%-3px)]  hover:bg-white;
+//     content: "";
+//     // position: absolute;
+//     // z-index: -1;
+//     // left: 2px;
+//     // top: 2px;
+//     // width: calc(100% - 5px);
+//     // height: calc(100% - 5px);
+//     // background: #0d2ca7;
+//     // border-radius: 35px;
+// }
+
+// @keyframes glow {
+//     100% {
+//         transform: translate(-50%, -50%) rotate(1turn);
+//     }
+// }
+
 .btn {
-    @apply uppercase text-white flex items-center justify-center py-7 hover:text-black hover:bg-white;
-    // color: white;lg:p-6 lg:m-3
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
-    // text-decoration: none;
+    @apply uppercase text-white flex items-center justify-center py-7 hover:text-black hover:bg-white transition duration-700 border border-transparent;
+    /* transition and border */
+}
+
+.btn:hover {
+    @apply border-black; /* Add black border on hover */
 }
 
 .btn,
 .btn-glow {
     @apply absolute overflow-hidden z-0 max-h-[20px] max-w-[260px] h-full w-full rounded-full;
-    // position: absolute;
-    // overflow: hidden;
-    // z-index: 0;
-    // max-width: 260px;
-    // max-height: 60px;
-    // height: 100%;
-    // width: 100%;
-    // border-radius: 35px;
 }
 
 .btn::before,
@@ -30,32 +88,11 @@
         rgba(0, 0, 0, 0) 25%
     );
     animation: glow 3s linear infinite;
-    // width: 9999px;
-    // height: 9999px;
-    // top: 50%;
-    // left: 50%;
-    // background-repeat: no-repeat;
-    // background-position: 0 0;
-    // position: absolute;
-    // transform: translate(-50%, -50%) rotate(0deg);
-    // z-index: -2;
 }
 
-// .btn-glow {
-//     filter: blur(25px);
-// }
-
 .btn:after {
-    @apply absolute -z-10 rounded-full bg-black w-[calc(100%-3px)] h-[calc(100%-3px)]  hover:bg-white;
+    @apply absolute -z-10 rounded-full bg-black w-[calc(100%-3px)] h-[calc(100%-3px)] hover:bg-white;
     content: "";
-    // position: absolute;
-    // z-index: -1;
-    // left: 2px;
-    // top: 2px;
-    // width: calc(100% - 5px);
-    // height: calc(100% - 5px);
-    // background: #0d2ca7;
-    // border-radius: 35px;
 }
 
 @keyframes glow {

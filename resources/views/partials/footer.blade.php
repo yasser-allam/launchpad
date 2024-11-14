@@ -42,17 +42,17 @@
             <div class="flex justify-between flex-wrap">
                 <div class="flex items-center max-content justify-between">
                     <span class="text-xs text-white/50 sm:text-center font-thin">© 2024. All Rights Reserved. Copyrights
-                        <strong class="text-white"><u> <a href="/">Launchpad</a></u></strong>
+                        <strong class="text-white"><u> <a wire:navigate href="/">Launchpad</a></u></strong>
                     </span>
                     <span class="text-xs text-white/50 sm:text-center font-thin">. Web Design & Development By
-                        <strong class="text-white"><u> <a href="https://thewebaddicts.com/">The Web
+                        <strong class="text-white"><u> <a wire:navigate href="https://thewebaddicts.com/">The Web
                                     Addicts</a></u></strong>.
                     </span>
                 </div>
                 <div class="flex items-center justify-around text-white/80 font-thin space-x-5">
-                    <a href="/">Terms & Conditions</a>
-                    <a href="/">Privacy Policy</a>
-                    <a href="/">Cookies Policy</a>
+                    <a wire:navigate href="/">Terms & Conditions</a>
+                    <a wire:navigate href="/">Privacy Policy</a>
+                    <a wire:navigate href="/">Cookies Policy</a>
                 </div>
             </div>
         </div>

@@ -3,17 +3,17 @@
         class="fixed top-8 w-11/12 mx-auto pl-[2vw] h-[70px] flex flex-wrap justify-between items-center z-20 shadow-2xl rounded-lg md:flex-nowrap bg-white">
         {{-- bg-red-800 --}}
         <div class="flex justify-center">
-            <a href="/">
+            <a wire:navigate href="/">
                 <img id="navImage" class="w-full h-auto object-contain" src="{{ asset('assets/header/black-logo.svg') }}"
                     alt="Launchpad Logo">
             </a>
         </div>
         <div class="space-x-8 font-bold uppercase ">
-            <a class="" href="/about-us">About Us</a>
-            <a class="" href="/">Products</a>
-            <a class="" href="/">Services</a>
-            <a class="" href="/">Our Work</a>
-            <a class="" href="/">Contact Us</a>
+            <a wire:navigate class="" href="/about-us">About Us</a>
+            <a wire:navigate class="" href="/">Products</a>
+            <a wire:navigate class="" href="/">Services</a>
+            <a wire:navigate class="" href="/">Our Work</a>
+            <a wire:navigate class="" href="/">Contact Us</a>
         </div>
 
         {{-- <div class="flex items-center p-10">
