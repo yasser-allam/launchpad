@@ -93,9 +93,9 @@
         <div class="space-x-8 font-bold uppercase ">
             <a wire:navigate class="" href="/about-us">About Us</a>
             <a wire:navigate class="" href="/products">Products</a>
-            <a wire:navigate class="" href="/">Services</a>
-            <a wire:navigate class="" href="/">Our Work</a>
-            <a wire:navigate class="" href="/">Contact Us</a>
+            <a wire:navigate class="" href="/services">Services</a>
+            <a wire:navigate class="" href="/our-work">Our Work</a>
+            <a wire:navigate class="" href="/contact-us">Contact Us</a>
         </div>
         <div class="flex items-center w-1/6 relative order-2 lg:order-3">
             <button class="btn font-lg absolute">Start Your Project</button>

@@ -27,8 +27,7 @@
 
     <div class="w-11/12 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-20 mb-10 gap-10">
         @component('components.products-card', [
-            'color1' => '#372b75',
-            'color2' => '#2ba4e3',
+            'gradient' => 'from-[#372B75] to-[#2BA4E3]',
             'bgIcon' => 'assets/products/card1-cover.png',
             'title' => '‘HEYA’ ECOMMERCE SOLUTION',
             'description' =>
@@ -36,8 +35,7 @@
         ])
         @endcomponent
         @component('components.products-card', [
-            'color1' => '#3A9E81',
-            'color2' => '#085A7F',
+            'gradient' => 'from-[#3A9E81] to-[#085A7F]',
             'bgIcon' => 'assets/products/card2-cover.png',
             'title' => 'OMNICHANNEL TICKETING SOLUTION',
             'description' =>
@@ -45,8 +43,7 @@
         ])
         @endcomponent
         @component('components.products-card', [
-            'color1' => '#372B75',
-            'color2' => '#8F78FA',
+            'gradient' => 'from-[#372B75] to-[#8F78FA]',
             'bgIcon' => 'assets/products/card3-cover.png',
             'title' => '‘HEYA’ Q-COMMERCE SUPERMARKET SOLUTION',
             'description' =>
@@ -54,20 +51,15 @@
         ])
         @endcomponent
         @component('components.products-card', [
-            'color1' => '#3A9E81',
-            'color2' => '#9878EF',
+            'gradient' => 'from-[#3A9E81] to-[#9878EF]',
             'bgIcon' => 'assets/products/card4-cover.png',
             'title' => '‘HEYA’ CORPORATE WEBSITE SOLUTION',
             'description' =>
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         ])
         @endcomponent
-    </div>
-
-    <div class="w-11/12 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
         @component('components.products-card', [
-            'color1' => '#372b75',
-            'color2' => '#2ba4e3',
+            'gradient' => 'from-[#D96B6F] to-[#150074]',
             'bgIcon' => 'assets/products/card5-cover.png',
             'title' => '‘HEYA’ LOYALTY SOLUTION',
             'description' =>
@@ -75,17 +67,15 @@
         ])
         @endcomponent
         @component('components.products-card', [
-            'color1' => '#372b75',
-            'color2' => '#2ba4e3',
+            'gradient' => 'from-[#3A9E81] to-[#150074]',
             'bgIcon' => 'assets/products/card6-cover.png',
-            'title' => 'DRIVER SOLUTION',
+            'title' => 'Driver SOLUTION',
             'description' =>
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         ])
         @endcomponent
         @component('components.products-card', [
-            'color1' => '#372b75',
-            'color2' => '#2ba4e3',
+            'gradient' => 'from-[#4C9797] to-[#36A0DB]',
             'bgIcon' => 'assets/products/card7-cover.png',
             'title' => 'Shipments Returns Module',
             'description' =>
@@ -93,8 +83,7 @@
         ])
         @endcomponent
         @component('components.products-card', [
-            'color1' => '#372b75',
-            'color2' => '#2ba4e3',
+            'gradient' => 'from-[#D96B6F] to-[#2BA4E3]',
             'bgIcon' => 'assets/products/card8-cover.png',
             'title' => 'WAREHOUSE MANAGEMENT SYSTEM SOLUTION',
             'description' =>
@@ -102,5 +91,7 @@
         ])
         @endcomponent
     </div>
+
+
     <div class="h-64"></div>
 @endsection

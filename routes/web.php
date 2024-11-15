@@ -18,6 +18,10 @@ Route::get('/prodcut-details', function(){
     return view('pages.product-details');
 });
 
+Route::get('/services', action: function(){
+    return view('pages.services');
+});
+
 Route::get('/test', function(){
     return view('pages.test');
 });
