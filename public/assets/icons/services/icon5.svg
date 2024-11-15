@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.902" y1="0.04" x2="0.058" y2="0.955" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2f2f2d"/>
+      <stop offset="1" stop-color="#1578ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.902" y1="0.04" x2="0.058" y2="0.955" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e9ebee"/>
+      <stop offset="1" stop-color="#e7f0fc"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_58" data-name="Rectangle 58" width="42.74" height="38.488" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_22155" data-name="Group 22155" transform="translate(-129 -356)">
+    <rect id="Rectangle_232" data-name="Rectangle 232" width="80" height="80" rx="10" transform="translate(129 356)" fill="url(#linear-gradient-2)"/>
+    <g id="Group_289" data-name="Group 289" transform="translate(147.63 376.756)">
+      <g id="Group_41" data-name="Group 41" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="Path_48" data-name="Path 48" d="M21.342,38.487H2.458A2.171,2.171,0,0,1,0,36.027Q0,21.373,0,6.718A2.15,2.15,0,0,1,2.427,4.285c2.588,0,5.176-.006,7.764.007a1.056,1.056,0,0,0,.831-.348Q12.83,2.1,14.674.3A1.09,1.09,0,0,1,15.36.013q6.011-.026,12.021,0A1.089,1.089,0,0,1,28.068.3q1.849,1.8,3.652,3.644a1.056,1.056,0,0,0,.831.349c2.6-.013,5.209-.01,7.814-.006a2.134,2.134,0,0,1,2.374,2.386q0,14.7,0,29.408a2.156,2.156,0,0,1-2.412,2.407H21.342m.022-29.942A12.828,12.828,0,1,0,34.2,21.352,12.848,12.848,0,0,0,21.365,8.546" transform="translate(0 0)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+        <path id="Path_49" data-name="Path 49" d="M20.172,28.7a8.54,8.54,0,1,1,8.544,8.582A8.534,8.534,0,0,1,20.172,28.7" transform="translate(-7.343 -7.343)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

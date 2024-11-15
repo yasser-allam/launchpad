@@ -81,7 +81,7 @@
 
 <div class="flex justify-center">
     <nav id="navbar"
-        class="fixed top-8 w-11/12 mx-auto pl-[2vw] h-[70px] flex flex-wrap justify-between items-center z-20 shadow-2xl rounded-lg md:flex-nowrap bg-white">
+        class="fixed top-6 w-11/12 mx-auto pl-[2vw] h-[70px] flex flex-wrap justify-between items-center z-20 shadow-2xl rounded-lg md:flex-nowrap bg-white">
 
         <div class="flex justify-center">
             <a wire:navigate href="/">

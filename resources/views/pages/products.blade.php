@@ -1,7 +1,7 @@
 @extends('layouts.main')
 @section('main-content')
     <div id="cover"
-        class="overflow-hidden h-[45vw] relative">
+        class="overflow-hidden h-[45vw] relative mb-20">
         @component('components.image_asp.image', [
             'url' => 'assets/products/main.png',
             'alt' => 'img',
@@ -19,13 +19,10 @@
             'theme' => 'light',
         ])
         @endcomponent
-        <div>
-            <img src="{{ asset('assets/icons/products/oval.svg') }}" alt="icon">
-        </div>
     </div>
 
 
-    <div class="w-11/12 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-20 mb-10 gap-10">
+    <div class="w-11/12 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mb-10 gap-10">
         @component('components.products-card', [
             'gradient' => 'from-[#372B75] to-[#2BA4E3]',
             'bgIcon' => 'assets/products/card1-cover.png',

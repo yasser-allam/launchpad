@@ -22,6 +22,10 @@ Route::get('/services', action: function(){
     return view('pages.services');
 });
 
+Route::get('/service-details', function(){
+    return view('pages.service-details');
+});
+
 Route::get('/test', function(){
     return view('pages.test');
 });
