@@ -25,9 +25,10 @@
     </div>
 
 
-    <div class="w-11/12 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4  mt-20">
+    <div class="w-11/12 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-20 mb-10 gap-10">
         @component('components.products-card', [
-            'bgImg' => 'assets/products/card1.png',
+            'color1' => '#372b75',
+            'color2' => '#2ba4e3',
             'bgIcon' => 'assets/products/card1-cover.png',
             'title' => '‘HEYA’ ECOMMERCE SOLUTION',
             'description' =>
@@ -35,56 +36,71 @@
         ])
         @endcomponent
         @component('components.products-card', [
-            'bgImg' => 'assets/products/card1.png',
-            'bgIcon' => 'assets/products/card1-cover.png',
-            'title' => '‘HEYA’ ECOMMERCE SOLUTION',
+            'color1' => '#3A9E81',
+            'color2' => '#085A7F',
+            'bgIcon' => 'assets/products/card2-cover.png',
+            'title' => 'OMNICHANNEL TICKETING SOLUTION',
             'description' =>
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         ])
         @endcomponent
         @component('components.products-card', [
-            'bgImg' => 'assets/products/card1.png',
-            'bgIcon' => 'assets/products/card1-cover.png',
-            'title' => '‘HEYA’ ECOMMERCE SOLUTION',
+            'color1' => '#372B75',
+            'color2' => '#8F78FA',
+            'bgIcon' => 'assets/products/card3-cover.png',
+            'title' => '‘HEYA’ Q-COMMERCE SUPERMARKET SOLUTION',
             'description' =>
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         ])
         @endcomponent
         @component('components.products-card', [
-            'bgImg' => 'assets/products/card1.png',
-            'bgIcon' => 'assets/products/card1-cover.png',
-            'title' => '‘HEYA’ ECOMMERCE SOLUTION',
+            'color1' => '#3A9E81',
+            'color2' => '#9878EF',
+            'bgIcon' => 'assets/products/card4-cover.png',
+            'title' => '‘HEYA’ CORPORATE WEBSITE SOLUTION',
             'description' =>
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         ])
         @endcomponent
-
-        {{-- <div class="absolute top-0 left-0 overflow-hidden ">
-
-            @component('components.image_asp.image', [
-    'url' => 'assets/products/card1-cover.png',
-    'alt' => 'card-icon img',
-    'ratio' => '5-6',
-    'classes' => '',
-    'fit' => 'cover',
-])
-            @endcomponent
-        </div> --}}
-
-
     </div>
 
-    <div class="w-full h-screen"></div>
+    <div class="w-11/12 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+        @component('components.products-card', [
+            'color1' => '#372b75',
+            'color2' => '#2ba4e3',
+            'bgIcon' => 'assets/products/card5-cover.png',
+            'title' => '‘HEYA’ LOYALTY SOLUTION',
+            'description' =>
+                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        ])
+        @endcomponent
+        @component('components.products-card', [
+            'color1' => '#372b75',
+            'color2' => '#2ba4e3',
+            'bgIcon' => 'assets/products/card6-cover.png',
+            'title' => 'DRIVER SOLUTION',
+            'description' =>
+                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        ])
+        @endcomponent
+        @component('components.products-card', [
+            'color1' => '#372b75',
+            'color2' => '#2ba4e3',
+            'bgIcon' => 'assets/products/card7-cover.png',
+            'title' => 'Shipments Returns Module',
+            'description' =>
+                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        ])
+        @endcomponent
+        @component('components.products-card', [
+            'color1' => '#372b75',
+            'color2' => '#2ba4e3',
+            'bgIcon' => 'assets/products/card8-cover.png',
+            'title' => 'WAREHOUSE MANAGEMENT SYSTEM SOLUTION',
+            'description' =>
+                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        ])
+        @endcomponent
+    </div>
+    <div class="h-64"></div>
 @endsection
-
-{{-- <div class="overflow-hidden rounded-2xl mb-6 relative">
-    @component('components.image_asp.image', [
-    'url' => 'assets/about-us/how-we-do-it.png',
-    'alt' => 'how we do it img',
-    'ratio' => '2-1',
-    'classes' => '',
-    'fit' => 'cover',
-])
-    @endcomponent
-    <div class="overlay"></div>
-</div> --}}
