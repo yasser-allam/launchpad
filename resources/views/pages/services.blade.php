@@ -6,11 +6,11 @@
             'url' => 'assets/services/main.png',
             'alt' => 'img',
             'ratio' => '2-1',
-            'classes' => '',
+            'classes' => 'mix-blend-luminosity',
             'fit' => 'cover',
         ])
         @endcomponent
-        <div class="overlay2"></div>
+        <div class="overlay"></div>
     </div>
 
     <div class="flex flex-col absolute top-1/3 left-24 w-[39%] gap-y-14">

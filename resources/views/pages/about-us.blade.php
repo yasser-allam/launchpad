@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('main-content')
-    <div class="main-container mt-40">
+    <div class="main-container mt-40" data-aos="fade-up">
         <h1 class="uppercase text-7xl mb-16">Welcome To <strong class="blue">Launchpad</strong></h1>
 
         <div class="flex justify-between mb-32">
@@ -15,30 +15,35 @@
                     ])
                     @endcomponent
                 </div>
-                <div class="flex items-center pr-8 pl-2 bg-white rounded-2xl shadow-xl absolute -left-16 top-12">
+                <div class="flex items-center pr-8 pl-2 bg-white rounded-2xl shadow-xl absolute -left-16 top-12"
+                    data-aos="fade-left">
                     <img src="{{ asset('assets/icons/about-us/icon1.svg') }}" alt="how we do it img">
                     <h2 class="uppercase text-lg font-extrabold">Industry Experts</h2>
                 </div>
-                <div class="flex items-center pr-8 pl-2 bg-white rounded-2xl shadow-xl absolute -right-20 top-40">
+                <div class="flex items-center pr-8 pl-2 bg-white rounded-2xl shadow-xl absolute -right-20 top-40"
+                    data-aos="fade-right">
                     <img src="{{ asset('assets/icons/about-us/icon2.svg') }}" alt="how we do it img">
                     <p class="uppercase text-lg font-extrabold">ISO Certified</p>
                 </div>
-                <div class="flex items-center pr-8 pl-2 bg-white rounded-2xl shadow-xl absolute -left-32 top-72">
+                <div class="flex items-center pr-8 pl-2 bg-white rounded-2xl shadow-xl absolute -left-32 top-72"
+                    data-aos="fade-left">
                     <img src="{{ asset('assets/icons/about-us/icon3.svg') }}" alt="how we do it img">
                     <p class="uppercase text-lg font-extrabold">Fully Customized Services</p>
                 </div>
-                <div class="flex items-center pr-8 pl-2 bg-white rounded-2xl shadow-xl absolute -right-32 bottom-32">
+                <div class="flex items-center pr-8 pl-2 bg-white rounded-2xl shadow-xl absolute -right-32 bottom-32"
+                    data-aos="fade-right">
                     <img src="{{ asset('assets/icons/about-us/icon4.svg') }}" alt="how we do it img">
                     <p class="uppercase text-lg font-extrabold">Proven Track Records</p>
                 </div>
-                <div class="flex items-center pr-8 pl-2 bg-white rounded-2xl shadow-xl absolute -left-20 bottom-14">
+                <div class="flex items-center pr-8 pl-2 bg-white rounded-2xl shadow-xl absolute -left-20 bottom-14"
+                    data-aos="fade-left">
                     <img src="{{ asset('assets/icons/about-us/icon5.svg') }}" alt="how we do it img">
                     <p class="uppercase text-lg font-extrabold">Goal Oriented</p>
                 </div>
             </div>
             <div class="flex flex-col w-1/2 mt-32 transform translate-x-36 ">
-                <h2 class="uppercase text-3xl font-black text-extrabold mb-6">Our Story</h2>
-                <p class="font-thin w-2/3">
+                <h2 class="uppercase text-3xl font-black text-extrabold mb-6" data-aos="fade-up">Our Story</h2>
+                <p class="font-thin w-2/3" data-aos="fade-up">
                     After 14 years abroad, Bernadette returned home with a mission to transform the local
                     e-commerce landscape.
                     <br>
@@ -71,7 +76,7 @@
         <div class="bg-black w-1/2">
             {{-- p-22~ so p-20 or p-24 below --}}
             <div class="flex flex-col p-[4.3vw] gap-y-8">
-                <div class="overflow-hidden rounded-2xl mb-6 relative">
+                <div class="overflow-hidden rounded-2xl mb-6 relative "data-aos="fade-up">
                     @component('components.image_asp.image', [
                         'url' => 'assets/about-us/how-we-do-it.png',
                         'alt' => 'how we do it img',
@@ -82,8 +87,9 @@
                     @endcomponent
                     <div class="overlay"></div>
                 </div>
-                <h2 class="text-3xl font-extrabold">How We Do It</h2>
-                <p class="font-light ">We specialize in providing comprehensive e-commerce consultancy by fully
+                <h2 class="text-3xl font-extrabold" data-aos="fade-up">How We Do It</h2>
+                <p class="font-light " data-aos="fade-up">We specialize in providing comprehensive e-commerce consultancy by
+                    fully
                     understanding your operations
                     and business goals. We assess your online presence and check the foundations for a successful launch. By
                     addressing gaps and suggesting efficient solutions, we work collaboratively with your team to ensure
@@ -93,7 +99,7 @@
         </div>
         <div class="bg-[#3A3A3A] w-1/2">
             <div class="flex flex-col p-[4.3vw] gap-y-8">
-                <div class="overflow-hidden rounded-2xl mb-6 relative">
+                <div class="overflow-hidden rounded-2xl mb-6 relative" data-aos="fade-up">
                     @component('components.image_asp.image', [
                         'url' => 'assets/about-us/why-we-do-it.png',
                         'alt' => 'why we do it img',
@@ -105,8 +111,9 @@
                     <div class="overlay"></div>
                 </div>
 
-                <h2 class="text-3xl font-extrabold">Why We Do It</h2>
-                <p class="font-light ">As a team of passionate experts in technology and operations, we’re excited to apply
+                <h2 class="text-3xl font-extrabold" data-aos="fade-up">Why We Do It</h2>
+                <p class="font-light" data-aos="fade-up">As a team of passionate experts in technology and operations, we’re
+                    excited to apply
                     our in-depth
                     knowledge to enhance your business at its core.</p>
             </div>

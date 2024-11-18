@@ -1,12 +1,12 @@
 <div class="flex flex-col items-center justify-center  w-full">
     <footer id="footer" class="bg-black w-full">
         {{-- transform translate-x-1/12 --}}
-        <div class="w-11/12 mx-auto mt-32">
+        <div class="w-11/12 mx-auto mt-28">
             <div class="flex flex-wrap justify-between">
                 <div class="flex flex-col items-start text-white">
-                    <span class="text-6xl mt-10"><strong>Let's Talk About</strong></span>
-                    <span class="text-6xl my-6"><strong>Your Project</strong></span>
-                    <span class="mb-16">
+                    <span class="text-5xl uppercase "><strong>Let's Talk About</strong></span>
+                    <span class="text-5xl uppercase mt-6 mb-12"><strong>Your Project</strong></span>
+                    <span class="mb-10">
                         <button class="btn">Start Your Project</button>
                     </span>
                 </div>
@@ -14,7 +14,7 @@
                     alt="Logo">
             </div>
         </div>
-        <div class="flex flex-wrap max-content justify-between w-11/12 mx-auto mt-10 mb-20 gap-y-4 gap-x-3">
+        <div class="flex flex-wrap max-content justify-between w-11/12 mx-auto mt-16 mb-16 gap-y-4 gap-x-3">
             @component('components.footer-card', [
                 'location' => 'Lebanon',
                 'description' => 'Aramex Building, 1st Floor, Mirna Chalouhi Highway – Lebanon',

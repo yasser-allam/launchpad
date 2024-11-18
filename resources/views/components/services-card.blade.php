@@ -1,4 +1,5 @@
-<a wire:navigate href="/service-details" class="flex flex-col px-8 pt-8 pb-12 rounded-xl shadow-xl gap-y-4 group">
+<a wire:navigate href="/service-details" class="flex flex-col px-8 pt-8 pb-12 rounded-xl shadow-xl gap-y-4 group"
+    data-aos="fade-up">
     <div class="flex justify-between">
         <div class="w-[15%] mb-2">
             @component('components.image_asp.image', [

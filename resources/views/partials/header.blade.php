@@ -81,7 +81,7 @@
 
 <div class="flex justify-center">
     <nav id="navbar"
-        class="fixed top-6 w-11/12 mx-auto pl-[2vw] h-[70px] flex flex-wrap justify-between items-center z-20 shadow-2xl rounded-lg md:flex-nowrap bg-white">
+        class="fixed top-6 w-11/12 mx-auto pl-[2vw] h-[70px] flex flex-wrap justify-between items-center z-20 shadow-xl rounded-lg md:flex-nowrap bg-white">
 
         <div class="flex justify-center">
             <a wire:navigate href="/">
@@ -90,7 +90,7 @@
                     alt="Launchpad Logo">
             </a>
         </div>
-        <div class="space-x-8 font-bold uppercase ">
+        <div class="space-x-8 font-base uppercase ">
             <a wire:navigate class="" href="/about-us">About Us</a>
             <a wire:navigate class="" href="/products">Products</a>
             <a wire:navigate class="" href="/services">Services</a>

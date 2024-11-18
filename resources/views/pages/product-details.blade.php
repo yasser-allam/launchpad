@@ -11,7 +11,7 @@
         @endcomponent
     </div>
 
-    <div class="w-11/12 mx-auto flex p-12 shadow-2xl bg-white rounded-xl mt-14">
+    <div class="w-11/12 mx-auto flex p-12 shadow-2xl bg-white rounded-xl mt-14" data-aos="fade-up">
 
         <div class="flex flex-col w-3/5 gap-y-5">
             <h1 class="font-black text-7xl">‘HEYA’ ECOMMERCE SOLUTION</h1>
@@ -77,7 +77,7 @@
 
 
 
-    <div class="w-11/12 mx-auto relative text-white mt-20 mb-64">
+    <div class="w-11/12 mx-auto relative text-white mt-20 mb-64" data-aos="fade-up">
         <div class="relative rounded-xl">
             @component('components.image_asp.image', [
                 'url' => 'assets/product-details/advantages.png',
@@ -92,45 +92,17 @@
             <h1 class="text-5xl font-extrabold">Advantages</h1>
             <div class="flex gap-x-4 items-center">
                 <img src="{{ asset('assets/icons/product-details/tick.svg') }}" alt="">
-                {{-- <div class="relative">
-                    @component('components.image_asp.image', [
-    'url' => 'assets/icons/product-details/tick.svg',
-    'alt' => 'tick svg',
-    'ratio' => '1-1',
-    'classes' => '',
-    'fit' => 'cover',
-])
-                    @endcomponent
-                </div> --}}
-                <p class="text-lg uppercase font-extrabold">Quick deployment with minimal setup time.</p>
+                <p class="text-lg uppercase font-extrabold" data-aos="fade-left">Quick deployment with minimal setup time.
+                </p>
             </div>
             <div class="flex gap-x-4 items-center">
                 <img src="{{ asset('assets/icons/product-details/tick.svg') }}" alt="">
-                {{-- <div class="relative">
-                    @component('components.image_asp.image', [
-    'url' => 'assets/icons/product-details/tick.svg',
-    'alt' => 'tick svg',
-    'ratio' => '1-1',
-    'classes' => '',
-    'fit' => 'cover',
-])
-                    @endcomponent
-                </div> --}}
-                <p class="text-lg uppercase font-extrabold">Fully customizable themes for branding flexibility.</p>
+                <p class="text-lg uppercase font-extrabold" data-aos="fade-left">Fully customizable themes for branding
+                    flexibility.</p>
             </div>
             <div class="flex gap-x-4 items-center">
                 <img src="{{ asset('assets/icons/product-details/tick.svg') }}" alt="">
-                {{-- <div class="relative">
-                    @component('components.image_asp.image', [
-    'url' => 'assets/icons/product-details/tick.svg',
-    'alt' => 'tick svg',
-    'ratio' => '1-1',
-    'classes' => '',
-    'fit' => 'cover',
-])
-                    @endcomponent
-                </div> --}}
-                <p class="text-lg uppercase font-extrabold">Robust eCommerce features.</p>
+                <p class="text-lg uppercase font-extrabold" data-aos="fade-left">Robust eCommerce features.</p>
             </div>
         </div>
     </div>

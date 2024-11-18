@@ -1,4 +1,4 @@
-<div class="col-span-1 flex h-full">
+<div class="col-span-1 flex h-full" data-aos="fade-up">
     <div class="flex flex-col gap-y-10 py-12 px-8 bg-white items-center shadow-2xl rounded-xl flex-grow">
         <div class="w-[35%] h-[35%]">
             @component('components.image_asp.image', [
