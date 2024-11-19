@@ -9,17 +9,31 @@
             'fit' => 'cover',
         ])
         @endcomponent
-    </div>
-    <div class="flex flex-col w-3/5 mx-auto items-center">
-        <span class="text-7xl font-black uppercase text-red-800">Let’s connect</span>
-        <div class="flex justify-between">
-            <img src="{{ asset('assets/contact-us/header-card-1.png') }}" alt="">
-            <img src="{{ asset('assets/contact-us/header-card-2.png') }}" alt="">
+        <div class="flex flex-col w-3/5 mx-auto items-center absolute top-[30%] left-[20%] text-white">
+            <span class="text-7xl font-black uppercase mb-20">Let’s connect</span>
+            <div class="flex justify-between gap-x-8">
+
+                <div class="w-full h-full relative">
+                    <img src="{{ asset('assets/contact-us/header-card-1.png') }}" alt="">
+                    <div class="absolute top-1/3 left-[10%] flex flex-col gap-4">
+                        <span class="text-xl font-bold uppercase">Contact Business</span>
+                        <p class="text-base font-thin">+961 1 485 075</p>
+                    </div>
+                </div>
+                <div class="w-full h-full relative">
+                    <img src="{{ asset('assets/contact-us/header-card-1.png') }}" alt="">
+                    <div class="absolute top-1/3 left-[10%] flex flex-col gap-4">
+                        <span class="text-xl font-bold uppercase">Email Address</span>
+                        <p class="text-base font-thin">info@launchpad.com</p>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
 
-    <div class="h-screen bg-green-300"></div>
-    <div class="flex flex-col items-center w-1/3 mx-auto gap-y-8">
+
+    <div class="flex flex-col items-center w-1/3 mx-auto gap-y-8 mt-20">
         <span class="text-5xl font-black uppercase">Our presence Around</span>
         <span class="text-5xl font-black uppercase">the world</span>
     </div>
