@@ -1,25 +1,10 @@
 @extends('layouts.main')
 @section('main-content')
-    <div id="cover"
-        class="overflow-hidden h-[45vw] relative mb-20">
-        @component('components.image_asp.image', [
-            'url' => 'assets/products/main.png',
-            'alt' => 'img',
-            'ratio' => '2-1',
-            'classes' => '',
-            'fit' => 'cover',
-        ])
-        @endcomponent
-        <div class="overlay2"></div>
-    </div>
-    <div class="flex flex-col absolute top-1/3 left-24 w-[40%] gap-y-14">
-        <h1 class="uppercase text-white text-7xl font-black">A one-stop-shop for your digital products</h1>
-        @component('components.button', [
-            'name' => 'Work with us',
-            'theme' => 'light',
-        ])
-        @endcomponent
-    </div>
+    @component('components.head-banner', [
+        'img' => 'assets/products/main.png',
+        'text' => 'A one-stop-shop for your digital products',
+    ])
+    @endcomponent
 
 
     <div class="w-11/12 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mb-10 gap-10">

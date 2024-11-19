@@ -135,7 +135,6 @@
         <div>
             <span class="text-7xl font-black uppercase ">& Many More ...</span>
             <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-20 mx-20 mt-32 mb-64">
-                {{-- <img src="{{ asset('assets/icons/our-work/logo1.svg') }}" alt="logo"> --}}
                 @component('components.logo', [
                     'logo' => 'assets/icons/our-work/logo1.svg',
                 ])

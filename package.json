@@ -17,6 +17,7 @@
     },
     "dependencies": {
         "@fontsource/montserrat": "^5.1.0",
-        "aos": "^2.3.4"
+        "aos": "^2.3.4",
+        "intl-tel-input": "^24.7.0"
     }
 }

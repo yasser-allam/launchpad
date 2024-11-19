@@ -6,6 +6,7 @@
 @import "buttons/glowing-btn";
 @import "asp.scss";
 @import "aos/dist/aos.css";
+@import "/node_modules/intl-tel-input/build/css/intlTelInput.css";
 
 body {
     // bg-gray-400
@@ -28,6 +29,10 @@ body {
 }
 .overlay2 {
     @apply bg-[rgba(0,0,0,0.7)] absolute top-0 left-0 w-full h-full;
+    content: "";
+}
+.overlay3 {
+    @apply bg-[rgba(0,0,0,0.4)] absolute top-0 left-0 w-full h-full;
     content: "";
 }
 

@@ -15,31 +15,42 @@
                     ])
                     @endcomponent
                 </div>
-                <div class="flex items-center pr-8 pl-2 bg-white rounded-2xl shadow-xl absolute -left-16 top-12"
-                    data-aos="fade-left">
-                    <img src="{{ asset('assets/icons/about-us/icon1.svg') }}" alt="how we do it img">
-                    <h2 class="uppercase text-lg font-extrabold">Industry Experts</h2>
-                </div>
-                <div class="flex items-center pr-8 pl-2 bg-white rounded-2xl shadow-xl absolute -right-20 top-40"
-                    data-aos="fade-right">
-                    <img src="{{ asset('assets/icons/about-us/icon2.svg') }}" alt="how we do it img">
-                    <p class="uppercase text-lg font-extrabold">ISO Certified</p>
-                </div>
-                <div class="flex items-center pr-8 pl-2 bg-white rounded-2xl shadow-xl absolute -left-32 top-72"
-                    data-aos="fade-left">
-                    <img src="{{ asset('assets/icons/about-us/icon3.svg') }}" alt="how we do it img">
-                    <p class="uppercase text-lg font-extrabold">Fully Customized Services</p>
-                </div>
-                <div class="flex items-center pr-8 pl-2 bg-white rounded-2xl shadow-xl absolute -right-32 bottom-32"
-                    data-aos="fade-right">
-                    <img src="{{ asset('assets/icons/about-us/icon4.svg') }}" alt="how we do it img">
-                    <p class="uppercase text-lg font-extrabold">Proven Track Records</p>
-                </div>
-                <div class="flex items-center pr-8 pl-2 bg-white rounded-2xl shadow-xl absolute -left-20 bottom-14"
-                    data-aos="fade-left">
-                    <img src="{{ asset('assets/icons/about-us/icon5.svg') }}" alt="how we do it img">
-                    <p class="uppercase text-lg font-extrabold">Goal Oriented</p>
-                </div>
+
+                @component('components.about-us-small-banner', [
+                    'position' => '-left-16 top-12',
+                    'fade_direction' => 'fade-left',
+                    'icon' => 'assets/icons/about-us/icon1.svg',
+                    'text' => 'Industry Experts',
+                ])
+                @endcomponent
+                @component('components.about-us-small-banner', [
+                    'position' => '-right-20 top-40',
+                    'fade_direction' => 'fade-right',
+                    'icon' => 'assets/icons/about-us/icon2.svg',
+                    'text' => 'ISO Certified',
+                ])
+                @endcomponent
+                @component('components.about-us-small-banner', [
+                    'position' => '-left-32 top-72',
+                    'fade_direction' => 'fade-left',
+                    'icon' => 'assets/icons/about-us/icon3.svg',
+                    'text' => 'Fully Customized Services',
+                ])
+                @endcomponent
+                @component('components.about-us-small-banner', [
+                    'position' => '-right-32 bottom-32',
+                    'fade_direction' => 'fade-right',
+                    'icon' => 'assets/icons/about-us/icon4.svg',
+                    'text' => 'Proven Track Records',
+                ])
+                @endcomponent
+                @component('components.about-us-small-banner', [
+                    'position' => '-left-20 bottom-14',
+                    'fade_direction' => 'fade-left',
+                    'icon' => 'assets/icons/about-us/icon5.svg',
+                    'text' => 'Goal Oriented',
+                ])
+                @endcomponent
             </div>
             <div class="flex flex-col w-1/2 mt-32 transform translate-x-36 ">
                 <h2 class="uppercase text-3xl font-black text-extrabold mb-6" data-aos="fade-up">Our Story</h2>
