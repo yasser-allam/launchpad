@@ -28,6 +28,7 @@
     <div class="w-11/12 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mb-10 gap-10">
 
         @component('components.services-card', [
+            'direction' => 'horizontal',
             'img' => 'assets/icons/services/icon1.svg',
             'title' => 'Consultancy',
             'description' =>
@@ -36,6 +37,7 @@
         @endcomponent
 
         @component('components.services-card', [
+            'direction' => 'horizontal',
             'img' => 'assets/icons/services/icon2.svg',
             'title' => 'Tech & Integrations',
             'description' =>
@@ -43,6 +45,7 @@
         ])
         @endcomponent
         @component('components.services-card', [
+            'direction' => 'horizontal',
             'img' => 'assets/icons/services/icon3.svg',
             'title' => 'DIGITAL CHANNELS SETUP',
             'description' =>
@@ -50,6 +53,7 @@
         ])
         @endcomponent
         @component('components.services-card', [
+            'direction' => 'horizontal',
             'img' => 'assets/icons/services/icon4.svg',
             'title' => 'ONLINE STORES MANAGEMENT',
             'description' =>
@@ -57,6 +61,7 @@
         ])
         @endcomponent
         @component('components.services-card', [
+            'direction' => 'horizontal',
             'img' => 'assets/icons/services/icon5.svg',
             'title' => 'Product photography',
             'description' =>
@@ -64,6 +69,7 @@
         ])
         @endcomponent
         @component('components.services-card', [
+            'direction' => 'horizontal',
             'img' => 'assets/icons/services/icon6.svg',
             'title' => 'Social media management',
             'description' =>
@@ -71,6 +77,7 @@
         ])
         @endcomponent
         @component('components.services-card', [
+            'direction' => 'horizontal',
             'img' => 'assets/icons/services/icon7.svg',
             'title' => 'SOCIAL Commerce',
             'description' =>
@@ -78,6 +85,7 @@
         ])
         @endcomponent
         @component('components.services-card', [
+            'direction' => 'horizontal',
             'img' => 'assets/icons/services/icon8.svg',
             'title' => 'Digital marketing',
             'description' =>
@@ -85,6 +93,7 @@
         ])
         @endcomponent
         @component('components.services-card', [
+            'direction' => 'horizontal',
             'img' => 'assets/icons/services/icon9.svg',
             'title' => 'Fullfillment',
             'description' =>
@@ -92,6 +101,7 @@
         ])
         @endcomponent
         @component('components.services-card', [
+            'direction' => 'horizontal',
             'img' => 'assets/icons/services/icon10.svg',
             'title' => 'RECONCILIATION',
             'description' =>
@@ -99,6 +109,7 @@
         ])
         @endcomponent
         @component('components.services-card', [
+            'direction' => 'horizontal',
             'img' => 'assets/icons/services/icon11.svg',
             'title' => 'Customer Support',
             'description' =>

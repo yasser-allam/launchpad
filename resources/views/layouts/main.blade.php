@@ -8,7 +8,7 @@
     <div class="header">
         @include('partials.header')
     </div>
-    <main class="flex flex-col flex-grow">
+    <main class="">
         @yield('main-content')
     </main>
 

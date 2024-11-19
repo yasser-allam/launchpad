@@ -9,9 +9,5 @@
         ])
         @endcomponent
     </div>
-    <div
-        class="absolute top-[35%] left-[41%] transition-transform duration-700 transform group-hover:scale-[1.15]">
-        <img class="" src="{{ asset($icon) }}" alt="icon 1">
-    </div>
     <div class="font-semibold mt-6 mb-8 ml-4">{{ $title }}</div>
 </div>

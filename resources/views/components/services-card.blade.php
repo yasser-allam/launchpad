@@ -1,7 +1,16 @@
 <a wire:navigate href="/service-details" class="flex flex-col px-8 pt-8 pb-12 rounded-xl shadow-xl gap-y-4 group"
     data-aos="fade-up">
+    @php
+        $leading = '';
+        if ($direction == 'vertical') {
+            $direction = 'w-[23%]';
+            $leading = 'relaxed';
+        } else {
+            $direction = 'w-[15%]';
+        }
+    @endphp
     <div class="flex justify-between">
-        <div class="w-[15%] mb-2">
+        <div class="{{ $direction }} mb-2">
             @component('components.image_asp.image', [
                 'url' => $img,
                 'alt' => 'icon svg',
@@ -22,5 +31,5 @@
         </div>
     </div>
     <span class="text-lg font-extrabold uppercase">{{ $title }}</span>
-    <p class="text-md font-thin text-black/50">{{ $description }}</p>
+    <p class="text-base font-thin {{ $leading }} text-black/60">{{ $description }}</p>
 </a>
