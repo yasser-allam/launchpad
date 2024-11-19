@@ -1,0 +1,34 @@
+.texts-container {
+    @apply h-16 overflow-hidden blue;
+    display: inline-block;
+    // height: 40px;
+    // overflow: hidden;
+    // color: #ff7a00;
+}
+
+.texts-container span {
+    display: block;
+    animation: moveUp 8s infinite;
+}
+
+@keyframes moveUp {
+    0% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(-26%);
+    }
+
+    50% {
+        transform: translateY(-51%);
+    }
+
+    75% {
+        transform: translateY(-76%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

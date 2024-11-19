@@ -8,7 +8,7 @@
     @endphp
 
     <button
-        class=" {{ $classes }} uppercase flex items-center justify-center py-4 px-6 rounded-full {{ $theme ?? '' }} transition duration-300 ">
+        class=" {{ $classes ?? '' }} uppercase flex items-center justify-center py-4 px-6 rounded-full {{ $theme ?? '' }} transition duration-300 ">
         {{ $name ?? '' }}
     </button>
 </div>

@@ -1,6 +1,5 @@
-<div class="flex flex-col items-center justify-center  w-full">
+<div class="flex flex-col items-center justify-center w-full">
     <footer id="footer" class="bg-black w-full">
-        {{-- transform translate-x-1/12 --}}
         <div class="w-11/12 mx-auto mt-28">
             <div class="flex flex-wrap justify-between">
                 <div class="flex flex-col items-start text-white">

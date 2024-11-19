@@ -5,18 +5,29 @@
 @import "menus";
 @import "buttons/glowing-btn";
 @import "asp.scss";
+@import "rotating-text.scss";
 @import "aos/dist/aos.css";
 @import "/node_modules/intl-tel-input/build/css/intlTelInput.css";
 
 body {
     // bg-gray-400
-    @apply flex flex-col min-h-screen font-semibold bg-white;
+    @apply flex flex-col min-h-screen font-semibold bg-gray-300;
     font-family: "Montserrat";
 }
 
 .main-container {
     @apply w-11/12 mx-auto;
     // @apply w-full mx-auto px-[5vw];
+}
+
+@layer components {
+    .form-input {
+        @apply w-full p-2 border border-black/30 rounded focus:ring focus:ring-blue-200 focus:outline-none;
+    }
+}
+
+.iti.iti--allow-dropdown.iti--show-flags.iti--inline-dropdown {
+    width: 100%;
 }
 
 .blue {
