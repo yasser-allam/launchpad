@@ -108,76 +108,28 @@
 
                     <div class="w-[40%] h-[760px] overflow-y-scroll snap-y ">
 
-
-                        <div class="flex flex-col justify-center h-[98vh]">
-                            <span class="uppercase font-black text-5xl leading-relaxed mb-10">Title of the step goes
-                                here</span>
-                            <p class="font-thin text-base leading-relaxed">Lorem ipsum dolor sit amet, consectetur
-                                adipiscing
-                                elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Bibendum est ultricies integer quis. Iaculis urna id volutpat
-                                lacus laoreet. Mauris vitae ultricies leo integer malesuada. Ac odio tempor orci dapibus
-                                ultrices in.
-                            </p>
-                            <br>
-                            <p class="font-thin text-base leading-relaxed">
-                                Egestas diam in arcu cursus euismod. Dictum fusce ut placerat orci nulla. Tincidunt ornare
-                                massa eget egestas purus viverra accumsan in nisl. Tempor id eu nisl nunc mi ipsum faucibus.
-                                Fusce id velit ut tortor
-                            </p>
-                        </div>
-                        <div class="flex flex-col justify-center h-[98vh]">
-                            <span class="uppercase font-black text-5xl leading-relaxed mb-10">Title of the step goes
-                                here</span>
-                            <p class="font-thin text-base leading-relaxed">Lorem ipsum dolor sit amet, consectetur
-                                adipiscing
-                                elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Bibendum est ultricies integer quis. Iaculis urna id volutpat
-                                lacus laoreet. Mauris vitae ultricies leo integer malesuada. Ac odio tempor orci dapibus
-                                ultrices in.
-                            </p>
-                            <br>
-                            <p class="font-thin text-base leading-relaxed">
-                                Egestas diam in arcu cursus euismod. Dictum fusce ut placerat orci nulla. Tincidunt ornare
-                                massa eget egestas purus viverra accumsan in nisl. Tempor id eu nisl nunc mi ipsum faucibus.
-                                Fusce id velit ut tortor
-                            </p>
-                        </div>
-                        <div class="flex flex-col justify-center h-[98vh]">
-                            <span class="uppercase font-black text-5xl leading-relaxed mb-10">Title of the step goes
-                                here</span>
-                            <p class="font-thin text-base leading-relaxed">Lorem ipsum dolor sit amet, consectetur
-                                adipiscing
-                                elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Bibendum est ultricies integer quis. Iaculis urna id volutpat
-                                lacus laoreet. Mauris vitae ultricies leo integer malesuada. Ac odio tempor orci dapibus
-                                ultrices in.
-                            </p>
-                            <br>
-                            <p class="font-thin text-base leading-relaxed">
-                                Egestas diam in arcu cursus euismod. Dictum fusce ut placerat orci nulla. Tincidunt ornare
-                                massa eget egestas purus viverra accumsan in nisl. Tempor id eu nisl nunc mi ipsum faucibus.
-                                Fusce id velit ut tortor
-                            </p>
-                        </div>
-                        <div class="flex flex-col justify-center h-[98vh]">
-                            <span class="uppercase font-black text-5xl leading-relaxed mb-10">Title of the step goes
-                                here</span>
-                            <p class="font-thin text-base leading-relaxed">Lorem ipsum dolor sit amet, consectetur
-                                adipiscing
-                                elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Bibendum est ultricies integer quis. Iaculis urna id volutpat
-                                lacus laoreet. Mauris vitae ultricies leo integer malesuada. Ac odio tempor orci dapibus
-                                ultrices in.
-                            </p>
-                            <br>
-                            <p class="font-thin text-base leading-relaxed">
-                                Egestas diam in arcu cursus euismod. Dictum fusce ut placerat orci nulla. Tincidunt ornare
-                                massa eget egestas purus viverra accumsan in nisl. Tempor id eu nisl nunc mi ipsum faucibus.
-                                Fusce id velit ut tortor
-                            </p>
-                        </div>
-
+                        @foreach (range(1, 17) as $index)
+                            <div class="flex flex-col justify-center h-[98vh]">
+                                <span class="uppercase font-black text-5xl leading-relaxed mb-10">Title of the step goes
+                                    here</span>
+                                <p class="font-thin text-base leading-relaxed">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing
+                                    elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Bibendum est ultricies integer quis. Iaculis urna id
+                                    volutpat
+                                    lacus laoreet. Mauris vitae ultricies leo integer malesuada. Ac odio tempor orci dapibus
+                                    ultrices in.
+                                </p>
+                                <br>
+                                <p class="font-thin text-base leading-relaxed">
+                                    Egestas diam in arcu cursus euismod. Dictum fusce ut placerat orci nulla. Tincidunt
+                                    ornare
+                                    massa eget egestas purus viverra accumsan in nisl. Tempor id eu nisl nunc mi ipsum
+                                    faucibus.
+                                    Fusce id velit ut tortor
+                                </p>
+                            </div>
+                        @endforeach
 
 
                     </div>

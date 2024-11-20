@@ -18,7 +18,8 @@
         'theme' => 'light',
     ])
     @endcomponent
-    <div>
-        <img src="{{ asset('assets/icons/products/oval.svg') }}" alt="icon">
-    </div>
+    <a href="#next">
+        <img src="/assets/icons/products/mouse.gif" alt="Loading animation" class="w-[4%] mt-8">
+        {{-- <img src="{{ asset('assets/icons/products/oval.svg') }}" alt="icon"> --}}
+    </a>
 </div>

@@ -6,12 +6,11 @@
 @import "buttons/glowing-btn";
 @import "asp.scss";
 @import "rotating-text.scss";
-@import "aos/dist/aos.css";
 @import "/node_modules/intl-tel-input/build/css/intlTelInput.css";
 
 body {
     // bg-gray-400
-    @apply flex flex-col min-h-screen font-semibold bg-gray-300;
+    @apply flex flex-col min-h-screen font-semibold bg-white;
     font-family: "Montserrat";
 }
 

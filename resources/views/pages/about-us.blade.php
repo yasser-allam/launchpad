@@ -134,7 +134,7 @@
     <div class="main-container"></div>
     <div class="w-2/3 mx-auto mb-64">
         <div class="flex flex-col gap-y-4">
-            <h1 class="uppercase font-bold text-5xl text-center">Frequently Asked Questions</h1>
+            <h1 class="uppercase font-bold text-5xl text-center mb-4">Frequently Asked Questions</h1>
 
             @component('components.faq-banner', [
                 'question' => 'Question goes here',

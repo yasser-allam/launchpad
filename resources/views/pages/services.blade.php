@@ -6,7 +6,7 @@
     ])
     @endcomponent
 
-    <div class="w-11/12 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mb-10 gap-10">
+    <div id="next" class="w-11/12 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mb-10 gap-10">
 
         @component('components.services-card', [
             'direction' => 'horizontal',

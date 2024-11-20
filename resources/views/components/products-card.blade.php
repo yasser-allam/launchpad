@@ -1,4 +1,4 @@
-<a wire:wirenavigate href="/product-details" class="product-card group {{ $gradient }}" data-aos="fade-up">
+<a wire:wirenavigate href="/product-details" class="product-card group {{ $gradient }}">
     <div class="absolute w-[70%] -top-12 -left-8 ">
         @component('components.image_asp.image', [
             'url' => $bgIcon,

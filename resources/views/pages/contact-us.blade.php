@@ -66,11 +66,11 @@
             @endcomponent
 
         </div>
-
-        <livewire:contact-form />
-
+        <div class="w-[40%] mx-auto mt-32">
+            <livewire:contact-form />
+        </div>
         <div class="w-4/5 mx-auto mb-48">
-            <span class="text-7xl font-black uppercase mb-8 flex flex-col items-center">Frequently Asked Questions</span>
+            <span class="text-5xl font-black uppercase mb-8 flex flex-col items-center">Frequently Asked Questions</span>
             <div class="flex flex-col gap-4">
                 @component('components.faq-banner', [
                     'question' => 'Question Goes Here',

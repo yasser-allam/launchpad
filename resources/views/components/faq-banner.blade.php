@@ -1,7 +1,7 @@
-<div x-data="{ open: false }" @click="open = !open" class="bg-white shadow-xl rounded-lg p-8 cursor-pointer"
+<div x-data="{ open: false }" @click="open = !open" class="bg-white shadow-xl rounded-lg p-5 cursor-pointer"
     data-aos="fade-up">
     <div class="flex justify-between items-center">
-        <h2 class="uppercase text-xl font-bold">{{ $question ?? '' }}</h2>
+        <h2 class="uppercase text-lg font-bold">{{ $question ?? '' }}</h2>
         <div class="w-[17px] h-[8px]">
 
             <template x-if="!open">

@@ -35,80 +35,155 @@
                     ])
                     @endcomponent
                     @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card2.png',
+                        'bg' => 'assets/our-work/card1.png',
                         'title' => 'ABC Group',
                     ])
                     @endcomponent
                     @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card3.png',
+                        'bg' => 'assets/our-work/card1.png',
                         'title' => 'ABC Group',
                     ])
                     @endcomponent
                     @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card4.png',
+                        'bg' => 'assets/our-work/card1.png',
                         'title' => 'ABC Group',
                     ])
                     @endcomponent
                     @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card5.png',
+                        'bg' => 'assets/our-work/card1.png',
                         'title' => 'ABC Group',
                     ])
                     @endcomponent
                     @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card6.png',
+                        'bg' => 'assets/our-work/card1.png',
                         'title' => 'ABC Group',
                     ])
                     @endcomponent
                     @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card7.png',
+                        'bg' => 'assets/our-work/card1.png',
                         'title' => 'ABC Group',
                     ])
                     @endcomponent
                     @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card8.png',
+                        'bg' => 'assets/our-work/card1.png',
                         'title' => 'ABC Group',
                     ])
                     @endcomponent
                     @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card9.png',
+                        'bg' => 'assets/our-work/card1.png',
                         'title' => 'ABC Group',
                     ])
                     @endcomponent
                     @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card10.png',
+                        'bg' => 'assets/our-work/card1.png',
                         'title' => 'ABC Group',
                     ])
                     @endcomponent
                     @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card11.png',
+                        'bg' => 'assets/our-work/card1.png',
                         'title' => 'ABC Group',
                     ])
                     @endcomponent
                     @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card12.png',
+                        'bg' => 'assets/our-work/card1.png',
                         'title' => 'ABC Group',
                     ])
                     @endcomponent
                     @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card13.png',
+                        'bg' => 'assets/our-work/card1.png',
                         'title' => 'ABC Group',
                     ])
                     @endcomponent
                     @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card14.png',
+                        'bg' => 'assets/our-work/card1.png',
                         'title' => 'ABC Group',
                     ])
                     @endcomponent
                     @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card15.png',
+                        'bg' => 'assets/our-work/card1.png',
                         'title' => 'ABC Group',
                     ])
                     @endcomponent
                     @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card16.png',
+                        'bg' => 'assets/our-work/card1.png',
                         'title' => 'ABC Group',
                     ])
                     @endcomponent
+                    {{-- @component('components.our-work-card', [
+    'bg' => 'assets/our-work/card2.png',
+    'title' => 'ABC Group',
+])
+                    @endcomponent
+                    @component('components.our-work-card', [
+    'bg' => 'assets/our-work/card3.png',
+    'title' => 'ABC Group',
+])
+                    @endcomponent
+                    @component('components.our-work-card', [
+    'bg' => 'assets/our-work/card4.png',
+    'title' => 'ABC Group',
+])
+                    @endcomponent
+                    @component('components.our-work-card', [
+    'bg' => 'assets/our-work/card5.png',
+    'title' => 'ABC Group',
+])
+                    @endcomponent
+                    @component('components.our-work-card', [
+    'bg' => 'assets/our-work/card6.png',
+    'title' => 'ABC Group',
+])
+                    @endcomponent
+                    @component('components.our-work-card', [
+    'bg' => 'assets/our-work/card7.png',
+    'title' => 'ABC Group',
+])
+                    @endcomponent
+                    @component('components.our-work-card', [
+    'bg' => 'assets/our-work/card8.png',
+    'title' => 'ABC Group',
+])
+                    @endcomponent
+                    @component('components.our-work-card', [
+    'bg' => 'assets/our-work/card9.png',
+    'title' => 'ABC Group',
+])
+                    @endcomponent
+                    @component('components.our-work-card', [
+    'bg' => 'assets/our-work/card10.png',
+    'title' => 'ABC Group',
+])
+                    @endcomponent
+                    @component('components.our-work-card', [
+    'bg' => 'assets/our-work/card11.png',
+    'title' => 'ABC Group',
+])
+                    @endcomponent
+                    @component('components.our-work-card', [
+    'bg' => 'assets/our-work/card12.png',
+    'title' => 'ABC Group',
+])
+                    @endcomponent
+                    @component('components.our-work-card', [
+    'bg' => 'assets/our-work/card13.png',
+    'title' => 'ABC Group',
+])
+                    @endcomponent
+                    @component('components.our-work-card', [
+    'bg' => 'assets/our-work/card14.png',
+    'title' => 'ABC Group',
+])
+                    @endcomponent
+                    @component('components.our-work-card', [
+    'bg' => 'assets/our-work/card15.png',
+    'title' => 'ABC Group',
+])
+                    @endcomponent
+                    @component('components.our-work-card', [
+    'bg' => 'assets/our-work/card16.png',
+    'title' => 'ABC Group',
+])
+                    @endcomponent --}}
 
                 </div>
             </div>
