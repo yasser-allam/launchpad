@@ -1,5 +1,4 @@
-<div x-data="{ open: false }" @click="open = !open" class="bg-white shadow-xl rounded-lg p-5 cursor-pointer"
-    data-aos="fade-up">
+<div x-data="{ open: false }" @click="open = !open" class="bg-white shadow-xl rounded-lg p-5 cursor-pointer dtu-effect">
     <div class="flex justify-between items-center">
         <h2 class="uppercase text-lg font-bold">{{ $question ?? '' }}</h2>
         <div class="w-[17px] h-[8px]">

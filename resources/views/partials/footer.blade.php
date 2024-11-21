@@ -1,7 +1,7 @@
 <div class="flex flex-col items-center justify-center w-full">
     <footer id="footer" class="bg-black w-full">
         <div class="w-11/12 mx-auto mt-28">
-            <div class="flex flex-wrap gap-8 justify-between">
+            <div class="flex flex-wrap gap-8 justify-between dtu-effect">
                 <div class="flex flex-col items-start text-white">
                     <span class="text-2xl md:text-3xl lg:text-5xl uppercase "><strong>Let's Talk About</strong></span>
                     <span class="text-2xl md:text-3xl lg:text-5xl uppercase mt-6 mb-12"><strong>Your
@@ -15,7 +15,7 @@
                     alt="Logo">
             </div>
         </div>
-        <div class="flex flex-wrap max-content justify-between w-11/12 mx-auto mt-16 mb-16 gap-y-4 gap-x-3">
+        <div class="flex flex-wrap max-content justify-between w-11/12 mx-auto mt-16 mb-16 gap-y-4 gap-x-3 dtu-effect">
             @component('components.footer-card', [
                 'location' => 'Lebanon',
                 'description' => 'Aramex Building, 1st Floor, Mirna Chalouhi Highway – Lebanon',
@@ -39,7 +39,7 @@
 
         <hr class="border-white/20 mt-28" />
 
-        <div class="w-11/12 mb-6 mt-3 mx-auto">
+        <div class="w-11/12 mb-6 mt-3 mx-auto dtu-effect">
             <div class="flex justify-between flex-wrap">
                 <div class="flex flex-wrap gap-2 mb-2 items-center max-content justify-between">
                     <span class="text-xs text-white/50 sm:text-center font-thin">© 2024. All Rights Reserved. Copyrights
