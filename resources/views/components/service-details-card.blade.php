@@ -1,4 +1,4 @@
-<div class="w-full h-full relative bg-[rgba(233,235,238,0.7)] rounded-xl" data-aos="fade-up">
+<div class="w-full h-full relative bg-[rgba(233,235,238,0.7)] rounded-xl">
     <div class="flex gap-4 overflow-hidden">
         <div class="w-full h-full">
             @component('components.image_asp.image', [
