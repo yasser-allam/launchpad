@@ -6,7 +6,7 @@
             'alt' => 'img',
             'ratio' => '5-2',
             'classes' => '',
-            'fit' => 'cover',
+            'fit' => 'contain',
         ])
         @endcomponent
     </div>

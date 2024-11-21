@@ -1,6 +1,6 @@
 <div class="flex flex-col items-center justify-center w-full">
     <footer id="footer" class="bg-black w-full">
-        <div class="w-11/12 mx-auto mt-28">
+        <div class="w-11/12 mx-auto mt-32">
             <div class="flex flex-wrap gap-8 justify-between dtu-effect">
                 <div class="flex flex-col items-start text-white">
                     <span class="text-2xl md:text-3xl lg:text-5xl uppercase "><strong>Let's Talk About</strong></span>

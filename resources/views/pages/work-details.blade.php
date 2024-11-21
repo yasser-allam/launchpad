@@ -4,7 +4,7 @@
     <div class="flex flex-wrap w-11/12 mx-auto">
 
         <div class="shadow-xl rounded-xl w-[49%] h-[77vh] p-16">
-            <div class="flex flex-col gap-y-8">
+            <div class="flex flex-col gap-y-8 rtl-effect">
                 <span class="uppercase text-5xl font-black ">Artists & More</span>
                 <p class="text-lg text-black/60 font-thin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis.</p>
@@ -27,7 +27,7 @@
                 alt="main img">
         </div>
 
-        <div class="flex flex-col mt-40 mb-64 w-full items-center">
+        <div class="flex flex-col mt-40 mb-64 w-full items-center dtu-effect">
             <span class="font-black text-5xl uppercase mb-16">What Was Included</span>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 w-full">
                 @component('components.products-card', [

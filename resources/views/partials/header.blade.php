@@ -78,7 +78,7 @@
 
 
 {{-- NAV BAR WHITE --}}
-
+{{-- 
 <div class="flex justify-center">
     <nav id="navbar"
         class="fixed top-4 w-11/12 mx-auto pl-[2vw] h-[70px] flex flex-wrap justify-between items-center z-50 shadow-xl rounded-lg md:flex-nowrap bg-white">
@@ -101,4 +101,4 @@
             <button class="btn font-lg absolute">Start Your Project</button>
         </div>
     </nav>
-</div>
+</div> --}}

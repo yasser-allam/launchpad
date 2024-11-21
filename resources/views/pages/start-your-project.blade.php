@@ -12,7 +12,7 @@
         </video>
     </div>
 
-    <div class="absolute top-[20%] left-[10%] bg-white rounded-xl h-[70%] w-[40%] p-16">
+    <div class="absolute top-[20%] left-[10%] bg-white rounded-xl h-[70%] w-[40%] p-16 ltr-effect">
 
         <livewire:start-your-project />
 

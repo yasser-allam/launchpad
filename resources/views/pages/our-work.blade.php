@@ -1,12 +1,12 @@
 @extends('layouts.main')
 @section('main-content')
     <div class="w-11/12 mx-auto">
-        <div class="h-[18vh] w-full"></div>
-        <span class="uppercase text-7xl font-black">Our Work</span>
+        <div class="w-full h-[18vh]"></div>
+        <span class="uppercase text-7xl font-black rtl-effect">Our Work</span>
 
 
         <div class="mb-64" x-data="{ activeTab: 'all-fields' }">
-            <div class="flex items-start font-semibold gap-x-8 uppercase my-14">
+            <div class="flex items-start font-semibold gap-x-8 uppercase my-14 rtl-effect">
                 <span class="cursor-pointer"
                     :class="{ 'blue border-b-2 border-[#1578FF]': activeTab === 'all-fields' }"
                     @click="activeTab = 'all-fields'">All Fields</span>
@@ -27,88 +27,15 @@
 
             <div x-show="activeTab === 'all-fields'" class="transition-opacity duration-300">
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-32">
-
-
-                    @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card1.png',
-                        'title' => 'ABC Group',
-                    ])
-                    @endcomponent
-                    @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card1.png',
-                        'title' => 'ABC Group',
-                    ])
-                    @endcomponent
-                    @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card1.png',
-                        'title' => 'ABC Group',
-                    ])
-                    @endcomponent
-                    @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card1.png',
-                        'title' => 'ABC Group',
-                    ])
-                    @endcomponent
-                    @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card1.png',
-                        'title' => 'ABC Group',
-                    ])
-                    @endcomponent
-                    @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card1.png',
-                        'title' => 'ABC Group',
-                    ])
-                    @endcomponent
-                    @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card1.png',
-                        'title' => 'ABC Group',
-                    ])
-                    @endcomponent
-                    @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card1.png',
-                        'title' => 'ABC Group',
-                    ])
-                    @endcomponent
-                    @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card1.png',
-                        'title' => 'ABC Group',
-                    ])
-                    @endcomponent
-                    @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card1.png',
-                        'title' => 'ABC Group',
-                    ])
-                    @endcomponent
-                    @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card1.png',
-                        'title' => 'ABC Group',
-                    ])
-                    @endcomponent
-                    @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card1.png',
-                        'title' => 'ABC Group',
-                    ])
-                    @endcomponent
-                    @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card1.png',
-                        'title' => 'ABC Group',
-                    ])
-                    @endcomponent
-                    @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card1.png',
-                        'title' => 'ABC Group',
-                    ])
-                    @endcomponent
-                    @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card1.png',
-                        'title' => 'ABC Group',
-                    ])
-                    @endcomponent
-                    @component('components.our-work-card', [
-                        'bg' => 'assets/our-work/card1.png',
-                        'title' => 'ABC Group',
-                    ])
-                    @endcomponent
+                    @foreach (range(1, 16) as $index)
+                        <div class="dtu-effect">
+                            @component('components.our-work-card', [
+                                'bg' => 'assets/our-work/card1.png',
+                                'title' => 'ABC Group',
+                            ])
+                            @endcomponent
+                        </div>
+                    @endforeach
                     {{-- @component('components.our-work-card', [
     'bg' => 'assets/our-work/card2.png',
     'title' => 'ABC Group',
@@ -207,8 +134,8 @@
         </div>
 
 
-        <div>
-            <span class="text-7xl font-black uppercase ">& Many More ...</span>
+        <div class="dtu-effect">
+            <span class="text-7xl font-black uppercase dtu-effect">& Many More ...</span>
             <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-20 mx-20 mt-32 mb-64">
                 @component('components.logo', [
                     'logo' => 'assets/icons/our-work/logo1.svg',

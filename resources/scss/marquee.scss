@@ -1,0 +1,59 @@
+.partner-item {
+    flex: 0 0 auto;
+    /* Prevent shrinking */
+    width: 250px;
+}
+
+#maindiv {
+    @apply flex w-full gap-x-4;
+    display: flex !important;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#div1,
+#div2 {
+    @apply gap-x-4;
+    display: flex !important;
+    align-items: center;
+    display: inline-block;
+    animation: marquee 12s linear infinite;
+}
+
+#div2 {
+    animation: marquee 12s linear infinite;
+}
+
+/* Smooth transition for color change */
+/* .partner-item img {
+    transition: filter 0.3s ease, opacity 0.3s ease;
+} */
+
+/* .partner-item img.grayscale {
+    filter: grayscale(100%);
+    opacity: 0.5;
+} */
+
+/* Hover or focus to show original color */
+/* .partner-item:hover img,
+.partner-item:focus img {
+    filter: grayscale(0%);
+    opacity: 1;
+} */
+
+/* Pause the animation on hover */
+/* #maindiv:hover #div1,
+#maindiv:hover #div2 {
+    animation-play-state: paused;
+} */
+
+@keyframes marquee {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}

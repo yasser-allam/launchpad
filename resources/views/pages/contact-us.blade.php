@@ -10,18 +10,18 @@
         ])
         @endcomponent
         <div class="flex flex-col w-3/5 mx-auto items-center absolute top-[30%] left-[20%] text-white">
-            <span class="text-7xl font-black uppercase mb-20">Let’s connect</span>
+            <span class="text-7xl font-black uppercase mb-20 utd-effect">Let’s connect</span>
             <div class="flex justify-between gap-x-8">
 
-                <div class="w-full h-full relative">
+                <div class="w-full h-full relative ltr-effect">
                     <img src="{{ asset('assets/contact-us/header-card-1.png') }}" alt="">
                     <div class="absolute top-1/3 left-[10%] flex flex-col gap-4">
                         <span class="text-xl font-bold uppercase">Contact Business</span>
                         <p class="text-base font-thin">+961 1 485 075</p>
                     </div>
                 </div>
-                <div class="w-full h-full relative">
-                    <img src="{{ asset('assets/contact-us/header-card-1.png') }}" alt="">
+                <div class="w-full h-full relative rtl-effect">
+                    <img src="{{ asset('assets/contact-us/header-card-2.png') }}" alt="">
                     <div class="absolute top-1/3 left-[10%] flex flex-col gap-4">
                         <span class="text-xl font-bold uppercase">Email Address</span>
                         <p class="text-base font-thin">info@launchpad.com</p>
@@ -33,11 +33,11 @@
     </div>
 
 
-    <div class="flex flex-col items-center w-1/3 mx-auto gap-y-8 mt-20">
+    <div class="flex flex-col items-center w-1/3 mx-auto gap-y-8 mt-20 dtu-effect">
         <span class="text-5xl font-black uppercase">Our presence Around</span>
         <span class="text-5xl font-black uppercase">the world</span>
     </div>
-    <div class="w-11/12 mx-auto">
+    <div class="w-11/12 mx-auto dtu-effect">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-8">
 
             @component('components.location-card', [
@@ -66,11 +66,12 @@
             @endcomponent
 
         </div>
-        <div class="w-[40%] mx-auto mt-32">
+        <div class="w-[40%] mx-auto mt-32 dtu-effect">
             <livewire:contact-form />
         </div>
         <div class="w-4/5 mx-auto mb-48">
-            <span class="text-5xl font-black uppercase mb-8 flex flex-col items-center">Frequently Asked Questions</span>
+            <span class="text-5xl font-black uppercase mb-8 flex flex-col items-center dtu-effect">Frequently Asked
+                Questions</span>
             <div class="flex flex-col gap-4">
                 @component('components.faq-banner', [
                     'question' => 'Question Goes Here',
