@@ -15,7 +15,7 @@
 
         <div class="mx-auto absolute left-0 right-0 px-20 bottom-[20%] z-20">
             <div class="w-[55vw]">
-                <div class="changing-text text-7xl font-black text-white uppercase leading-relaxed effect1">
+                <div class="changing-text text-7xl font-black text-white uppercase leading-relaxed rtl-effect">
                     Powering Your Business In
                     <div class="texts-container">
                         <span class="text-7xl font-black">
@@ -26,7 +26,7 @@
                         </span>
                     </div>
                 </div>
-                <div class="mt-8 text-white/50 text-2xl font-semibold effect1">Let’s Build Your
+                <div class="mt-8 text-white/50 text-2xl font-semibold rtl-effect">Let’s Build Your
                     <strong class="font-black text-white"> Business</strong> Together
                 </div>
             </div>
@@ -45,7 +45,7 @@
         <section class="mt-8 bg-black sticky overflow-hidden top-0" style="align-self: flex-start;">
 
 
-            <div class="flex flex-col items-center w-1/2 mx-auto gap-y-8 effect2">
+            <div class="flex flex-col items-center w-1/2 mx-auto gap-y-8 dtu-effect">
                 <span class="text-7xl font-black text-white uppercase">Let’s Grow Your </span>
                 <span class="text-7xl font-black text-white uppercase">Business Together</span>
                 <div class="text-xl font-thin text-white flex flex-col items-center">
@@ -62,7 +62,7 @@
 
             <ul class="flex gap-8 h-[600px] mt-24 mx-20">
                 <li>
-                    <div class="h-[500px] w-[500px] effect2">
+                    <div class="h-[500px] w-[500px] dtu-effect">
                         @component('components.products-card', [
                             'gradient' => 'from-[#372B75] to-[#2BA4E3]',
                             'bgIcon' => 'assets/products/card1-cover.png',
@@ -74,7 +74,7 @@
                     </div>
                 </li>
                 <li>
-                    <div class="h-[500px] w-[500px] effect2">
+                    <div class="h-[500px] w-[500px] dtu-effect">
                         @component('components.products-card', [
                             'gradient' => 'from-[#372B75] to-[#2BA4E3]',
                             'bgIcon' => 'assets/products/card1-cover.png',
@@ -86,7 +86,7 @@
                     </div>
                 </li>
                 <li>
-                    <div class="h-[500px] w-[500px] effect2">
+                    <div class="h-[500px] w-[500px] dtu-effect">
                         @component('components.products-card', [
                             'gradient' => 'from-[#372B75] to-[#2BA4E3]',
                             'bgIcon' => 'assets/products/card1-cover.png',
@@ -98,7 +98,7 @@
                     </div>
                 </li>
                 <li>
-                    <div class="h-[500px] w-[500px] effect2">
+                    <div class="h-[500px] w-[500px] dtu-effect">
                         @component('components.products-card', [
                             'gradient' => 'from-[#372B75] to-[#2BA4E3]',
                             'bgIcon' => 'assets/products/card1-cover.png',
@@ -110,7 +110,7 @@
                     </div>
                 </li>
                 <li>
-                    <div class="h-[500px] w-[500px] effect2">
+                    <div class="h-[500px] w-[500px] dtu-effect">
                         @component('components.products-card', [
                             'gradient' => 'from-[#372B75] to-[#2BA4E3]',
                             'bgIcon' => 'assets/products/card1-cover.png',
@@ -122,7 +122,7 @@
                     </div>
                 </li>
                 <li>
-                    <div class="h-[500px] w-[500px] effect2">
+                    <div class="h-[500px] w-[500px] dtu-effect">
                         @component('components.products-card', [
                             'gradient' => 'from-[#372B75] to-[#2BA4E3]',
                             'bgIcon' => 'assets/products/card1-cover.png',
@@ -134,7 +134,7 @@
                     </div>
                 </li>
                 <li>
-                    <div class="h-[500px] w-[500px] effect2">
+                    <div class="h-[500px] w-[500px] dtu-effect">
                         @component('components.products-card', [
                             'gradient' => 'from-[#372B75] to-[#2BA4E3]',
                             'bgIcon' => 'assets/products/card1-cover.png',
@@ -146,7 +146,7 @@
                     </div>
                 </li>
                 <li>
-                    <div class="h-[500px] w-[500px] effect2">
+                    <div class="h-[500px] w-[500px] dtu-effect">
                         @component('components.products-card', [
                             'gradient' => 'from-[#372B75] to-[#2BA4E3]',
                             'bgIcon' => 'assets/products/card1-cover.png',

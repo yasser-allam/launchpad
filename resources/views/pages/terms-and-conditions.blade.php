@@ -2,7 +2,7 @@
 @section('main-content')
     <div class="h-40 w-full"></div>
     <div class="flex flex-col items-center mx-auto mb-20">
-        <span class="container md:text-3xl lg:text-5xl xl:text-7xl font-black uppercase">Terms &
+        <span class="container text-2xl md:text-3xl lg:text-5xl xl:text-7xl font-black uppercase">Terms &
             Conditions</span>
     </div>
     <div class="container flex flex-col mx-auto w-2/3 mb-64">
