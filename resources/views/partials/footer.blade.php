@@ -49,7 +49,7 @@
                     </span>
                 </div>
                 <div class="flex items-center justify-around text-white/80 font-thin space-x-5">
-                    <a wire:navigate href="/">Terms & Conditions</a>
+                    <a wire:navigate href="/terms-and-conditions">Terms & Conditions</a>
                     <a wire:navigate href="/">Privacy Policy</a>
                     <a wire:navigate href="/">Cookies Policy</a>
                 </div>

@@ -4,7 +4,7 @@
         @component('components.image_asp.image', [
             'url' => $icon,
             'alt' => 'img',
-            'ratio' => '2-1',
+            'ratio' => '5-2',
             'classes' => '',
             'fit' => 'cover',
         ])
