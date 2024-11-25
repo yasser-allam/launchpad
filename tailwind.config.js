@@ -1,6 +1,18 @@
 import defaultTheme from "tailwindcss/defaultTheme";
 
 /** @type {import('tailwindcss').Config} */
+
+const plugin = require("tailwindcss/plugin");
+
+// Rotate X utilities
+const rotateX = plugin(function ({ addUtilities }) {
+    addUtilities({
+        ".rotate-x-60": {
+            transform: "rotateX(60deg)",
+        },
+    });
+});
+
 export default {
     mode: "jit",
     content: [
@@ -10,6 +22,9 @@ export default {
     ],
     theme: {
         extend: {
+            fontWeight: {
+                black: "1000",
+            },
             fontFamily: {
                 sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
             },
@@ -18,5 +33,5 @@ export default {
             },
         },
     },
-    plugins: [],
+    plugins: [rotateX],
 };

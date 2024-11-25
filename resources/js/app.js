@@ -107,57 +107,8 @@ import { inView, animate, scroll } from "motion";
             }
         );
     }
+
+    inView(".success-rotate-effect", ({ target }) => {
+        animate(target, { rotateX: [-60, 0], y: [0, -700] }, { duration: 1.5 });
+    });
 })();
-
-// CAROUSEL
-
-// <!doctype html>
-// <html lang="en">
-//   <head>
-//     <meta charset="UTF-8" />
-//     <meta name="viewport" content="width=device-width" />
-//     <link
-//       rel="stylesheet"
-//       href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"
-//     />
-//     <link
-//       rel="stylesheet"
-//       href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.css"
-//     />
-//     <style>
-//       #myCarousel {
-//         --f-carousel-spacing: 50px !important;
-//         --f-carousel-slide-width: calc((100% - 40px) / 3) !important;
-//         --f-progress-color: #ff3520;
-//       }
-
-//       #myCarousel .f-carousel__slide {
-//         padding: 50px;
-//         background: #eee;
-//       }
-//     </style>
-//   </head>
-//   <body>
-//     <div>
-//       <div class="f-carousel" id="myCarousel">
-//         <div class="f-carousel__slide">1</div>
-//         <div class="f-carousel__slide">2</div>
-//         <div class="f-carousel__slide">3</div>
-//         <div class="f-carousel__slide">4</div>
-//         <div class="f-carousel__slide">5</div>
-//       </div>
-//     </div>
-//     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
-//     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.umd.js"></script>
-//     <script>
-//       const container = document.getElementById("myCarousel")
-//       const options = {
-//         Autoplay: {
-//           timeout: 1000,
-//         },
-//       }
-
-//       new Carousel(container, options, { Autoplay })
-//     </script>
-//   </body>
-// </html>

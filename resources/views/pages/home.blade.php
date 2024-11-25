@@ -229,6 +229,68 @@
     </div>
     <div class="h-[200vh] bg-red-500"></div>
 
+
+
+    <div class="flex flex-wrap justify-between w-11/12 mx-auto my-12">
+        <span class="text-5xl font-black uppercase">Success stories</span>
+        <p class="font-thin text-lg w-[30%] leading-relaxed">We excel in originality. Launchpad delivers quality-driven
+            experiences and
+            innovative
+            solutions
+            that uniquely
+            boost customer engagement</p>
+    </div>
+
+
+    <div class="w-11/12 mx-auto">
+
+        <div class="relative">
+            @component('components.image_asp.image', [
+                'url' => 'assets/home/success-image-1.png',
+                'alt' => 'img',
+                'ratio' => '5-2',
+                'classes' => 'rounded-2xl',
+                'fit' => 'cover',
+            ])
+            @endcomponent
+            <div class="overlay-pink rounded-2xl"></div>
+            <div class="w-[30%] absolute right-[5%] top-[10%]">
+                @component('components.stories-card', [
+                    'title' => 'ABC Group',
+                    'description' =>
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis. Iaculis urna id volutpat lacus laoreet. Mauris vitae ultricies leo integer malesuada.',
+                    'icon' => 'assets/icons/home/success-icon-1.svg',
+                ])
+                @endcomponent
+            </div>
+        </div>
+
+        <div class="relative rotate-x-60 success-rotate-effect">
+            @component('components.image_asp.image', [
+                'url' => 'assets/home/success-image-2.png',
+                'alt' => 'img',
+                'ratio' => '5-2',
+                'classes' => 'rounded-2xl',
+                'fit' => 'cover',
+            ])
+            @endcomponent
+            <div class="overlay-green rounded-2xl"></div>
+            <div class="w-[30%] absolute right-[5%] top-[10%]">
+                @component('components.stories-card', [
+                    'title' => 'Iqos by Philip morris',
+                    'description' =>
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis. Iaculis urna id volutpat lacus laoreet. Mauris vitae ultricies leo integer malesuada.',
+                    'icon' => 'assets/icons/home/success-icon-2.svg',
+                ])
+                @endcomponent
+            </div>
+        </div>
+
+
+
+    </div>
+
+
     <div
         class="w-11/12 mx-auto grid grid-cols-7 gap-8 shadow-xl rounded-xl p-10 bg-white justify-items-center justify-center transform translate-y-[50%]">
         <span class="uppercase text-3xl font-black  leading-relaxed">Our Trusted Partners</span>
