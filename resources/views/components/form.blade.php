@@ -1,10 +1,10 @@
 <div class="flex flex-col items-center h-full w-full mx-auto mb-32">
-    <span class="uppercase text-5xl font-black mb-10">{{ $title }}</span>
+    <span class="uppercase text-base xl:text-5xl font-black mb-10">{{ $title }}</span>
     <form wire:submit.prevent="submit" class="w-full">
         @csrf
 
         <div class="mb-4">
-            <label for="name" class="uppercase font-extrabold text-sm mb-2">Full Name</label>
+            <label for="name" class="uppercase font-extrabold text-xs lg:text-sm mb-2">Full Name</label>
             <input
                 placeholder="Full Name"
                 type="text"

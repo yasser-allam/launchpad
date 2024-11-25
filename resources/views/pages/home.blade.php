@@ -231,55 +231,52 @@
 
 
     <div class="h-screen my-32">
-        <div class="flex w-full h-full">
+
+
+        {{-- <div class="flex w-full h-full">
             <div class="flex flex-col w-[46%] mx-20">
                 <span class="text-5xl font-black uppercase whitespace-pre-line leading-relaxed my-16">
                     Our Services: Trusted.
                     Experienced. Skilled.</span>
                 <div class="relative grid grid-cols-1 gap-4 overflow-y-auto snap-y h-[50%]">
-                    <div>
+                    <div data-title="1">
                         @component('components.home-services-card', [
-                            'img' => 'assets/icons/home/home-services-icon-1.svg',
-                            'title' => 'Consultancy',
-                            'description' =>
-                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis.',
-                        ])
+    'img' => 'assets/icons/home/home-services-icon-1.svg',
+    'title' => 'Consultancy',
+    'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis.',
+])
+                        @endcomponent
+                    </div>
+                    <div data-title="2">
+                        @component('components.home-services-card', [
+    'img' => 'assets/icons/home/home-services-icon-1.svg',
+    'title' => 'Consultancy',
+    'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis.',
+])
+                        @endcomponent
+                    </div>
+                    <div data-title="3">
+                        @component('components.home-services-card', [
+    'img' => 'assets/icons/home/home-services-icon-1.svg',
+    'title' => 'Consultancy',
+    'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis.',
+])
                         @endcomponent
                     </div>
                     <div>
                         @component('components.home-services-card', [
-                            'img' => 'assets/icons/home/home-services-icon-1.svg',
-                            'title' => 'Consultancy',
-                            'description' =>
-                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis.',
-                        ])
+    'img' => 'assets/icons/home/home-services-icon-1.svg',
+    'title' => 'Consultancy',
+    'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis.',
+])
                         @endcomponent
                     </div>
                     <div>
                         @component('components.home-services-card', [
-                            'img' => 'assets/icons/home/home-services-icon-1.svg',
-                            'title' => 'Consultancy',
-                            'description' =>
-                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis.',
-                        ])
-                        @endcomponent
-                    </div>
-                    <div>
-                        @component('components.home-services-card', [
-                            'img' => 'assets/icons/home/home-services-icon-1.svg',
-                            'title' => 'Consultancy',
-                            'description' =>
-                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis.',
-                        ])
-                        @endcomponent
-                    </div>
-                    <div>
-                        @component('components.home-services-card', [
-                            'img' => 'assets/icons/home/home-services-icon-1.svg',
-                            'title' => 'Consultancy',
-                            'description' =>
-                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis.',
-                        ])
+    'img' => 'assets/icons/home/home-services-icon-1.svg',
+    'title' => 'Consultancy',
+    'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis.',
+])
                         @endcomponent
                     </div>
                     <div class="sticky left-0 right-0 bottom-0 h-[10vh] z-10 bg-gradient-to-b from-transparent to-white">
@@ -288,29 +285,271 @@
 
 
             </div>
-            {{-- help with Let's grow --}}
-            {{-- help with building our legacy (about us) --}}
-            {{-- help with navbar --}}
-            {{-- ask about transfaring classes to scss and updating app.js --}}
 
-            {{-- image not displayed --}}
-            {{-- aslo i want to use the <img> tag instead of component for image so that i can update the src tag dynamically --}}
-            <div id="display" class="w-[50%]">
-                <div class="relative h-full w-full overflow-hidden">
-                    <img class="asp asp-6-7 object-cover absolute top-0 left-0 h-full w-full"
-                        src="{{ asset('assets/home/home-services-img-1.png') }}" alt="img">
-                </div>
+            <div id="display" class="w-[50%] " data-id="1">
 
-                {{-- @component('components.image_asp.image', [
+                @component('components.image_asp.image', [
     'url' => 'assets/home/home-services-img-1.png',
     'alt' => 'img',
     'ratio' => '6-7',
     'classes' => '',
     'fit' => 'cover',
 ])
-                @endcomponent --}}
+                @endcomponent
+            </div>
+
+            <div id="display" class="w-[50%] hidden" data-id="2">
+
+                @component('components.image_asp.image', [
+    'url' => 'assets/home/home-services-img-2.png',
+    'alt' => 'img',
+    'ratio' => '6-7',
+    'classes' => '',
+    'fit' => 'cover',
+])
+                @endcomponent
+            </div>
+
+            <div id="display" class="w-[50%] hidden" data-id="3">
+
+                @component('components.image_asp.image', [
+    'url' => 'assets/home/home-services-img-3.png',
+    'alt' => 'img',
+    'ratio' => '6-7',
+    'classes' => '',
+    'fit' => 'cover',
+])
+                @endcomponent
+            </div>
+
+        </div> --}}
+
+
+
+
+        {{-- THIS IS ALMOST WORKING --}}
+        {{-- <div x-data="{ activeId: '1' }" class="flex w-full h-full">
+
+            <div class="flex flex-col w-[46%] mx-20">
+                <span class="text-5xl font-black uppercase whitespace-pre-line leading-relaxed my-16">
+                    Our Services: Trusted. Experienced. Skilled.
+                </span>
+                <div class="relative grid grid-cols-1 gap-4 overflow-y-auto snap-y h-[50%]">
+                    <div data-title="1" @mouseenter="activeId = '1'">
+                        @component('components.home-services-card', [
+    'img' => 'assets/icons/home/home-services-icon-1.svg',
+    'title' => 'Consultancy',
+    'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis.',
+])
+                        @endcomponent
+                    </div>
+                    <div data-title="2" @mouseenter="activeId = '2'">
+                        @component('components.home-services-card', [
+    'img' => 'assets/icons/home/home-services-icon-1.svg',
+    'title' => 'Consultancy',
+    'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis.',
+])
+                        @endcomponent
+                    </div>
+                    <div data-title="3" @mouseenter="activeId = '3'">
+                        @component('components.home-services-card', [
+    'img' => 'assets/icons/home/home-services-icon-1.svg',
+    'title' => 'Consultancy',
+    'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis.',
+])
+                        @endcomponent
+                    </div>
+                    <div data-title="2" @mouseenter="activeId = '2'">
+                        @component('components.home-services-card', [
+    'img' => 'assets/icons/home/home-services-icon-1.svg',
+    'title' => 'Consultancy',
+    'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis.',
+])
+                        @endcomponent
+                    </div>
+                    <div data-title="1" @mouseenter="activeId = '1'">
+                        @component('components.home-services-card', [
+    'img' => 'assets/icons/home/home-services-icon-1.svg',
+    'title' => 'Consultancy',
+    'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis.',
+])
+                        @endcomponent
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="w-[50%]"
+                x-show="activeId === '1'"
+                x-cloak>
+                @component('components.image_asp.image', [
+    'url' => 'assets/home/home-services-img-1.png',
+    'alt' => 'img',
+    'ratio' => '6-7',
+    'classes' => '',
+    'fit' => 'cover',
+    'onHover' => 'home-services-image',
+])
+                @endcomponent
+            </div>
+            <div class="w-[50%]"
+                x-show="activeId === '2'" x-cloak>
+                @component('components.image_asp.image', [
+    'url' => 'assets/home/home-services-img-2.png',
+    'alt' => 'img',
+    'ratio' => '6-7',
+    'classes' => '',
+    'fit' => 'cover',
+    'onHover' => 'home-services-image',
+])
+                @endcomponent
+            </div>
+            <div class="w-[50%]"
+                x-show="activeId === '3'" x-cloak>
+                @component('components.image_asp.image', [
+    'url' => 'assets/home/home-services-img-3.png',
+    'alt' => 'img',
+    'ratio' => '6-7',
+    'classes' => '',
+    'fit' => 'cover',
+    'onHover' => 'home-services-image',
+])
+                @endcomponent
+            </div>
+
+        </div>
+         --}}
+
+
+
+
+
+
+        <div x-data="{ activeId: '1', hovered: false }" class="flex w-full h-full">
+
+            <div class="flex flex-col w-[46%] mx-20">
+                <span class="text-5xl font-black uppercase whitespace-pre-line leading-relaxed my-16">
+                    Our Services: Trusted. Experienced. Skilled.
+                </span>
+                <div class="relative grid grid-cols-1 gap-4 overflow-y-auto snap-y h-[50%]">
+                    <div data-title="1" @mouseenter="activeId = '1'; hovered = true">
+                        @component('components.home-services-card', [
+                            'img' => 'assets/icons/home/home-services-icon-1.svg',
+                            'title' => 'Consultancy',
+                            'description' =>
+                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis.',
+                        ])
+                        @endcomponent
+                    </div>
+                    <div data-title="2" @mouseenter="activeId = '2'; hovered = true">
+                        @component('components.home-services-card', [
+                            'img' => 'assets/icons/home/home-services-icon-1.svg',
+                            'title' => 'Consultancy',
+                            'description' =>
+                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis.',
+                        ])
+                        @endcomponent
+                    </div>
+                    <div data-title="3" @mouseenter="activeId = '3'; hovered = true">
+                        @component('components.home-services-card', [
+                            'img' => 'assets/icons/home/home-services-icon-1.svg',
+                            'title' => 'Consultancy',
+                            'description' =>
+                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis.',
+                        ])
+                        @endcomponent
+                    </div>
+                    <div data-title="2" @mouseenter="activeId = '2'; hovered = true">
+                        @component('components.home-services-card', [
+                            'img' => 'assets/icons/home/home-services-icon-1.svg',
+                            'title' => 'Consultancy',
+                            'description' =>
+                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis.',
+                        ])
+                        @endcomponent
+                    </div>
+                    <div data-title="1" @mouseenter="activeId = '1'; hovered = true">
+                        @component('components.home-services-card', [
+                            'img' => 'assets/icons/home/home-services-icon-1.svg',
+                            'title' => 'Consultancy',
+                            'description' =>
+                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis.',
+                        ])
+                        @endcomponent
+                    </div>
+                    <div data-title="3" @mouseenter="activeId = '3'; hovered = true">
+                        @component('components.home-services-card', [
+                            'img' => 'assets/icons/home/home-services-icon-1.svg',
+                            'title' => 'Consultancy',
+                            'description' =>
+                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis.',
+                        ])
+                        @endcomponent
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="w-[50%]"
+                x-show="activeId === '1'"
+                x-transition:enter="transition-transform ease-out duration-500"
+                x-transition:enter-start="translate-y-[100%] opacity-0"
+                x-transition:enter-end="translate-y-0 opacity-100"
+
+                @transitionend="hovered = false"
+                x-cloak>
+                @component('components.image_asp.image', [
+                    'url' => 'assets/home/home-services-img-1.png',
+                    'alt' => 'img',
+                    'ratio' => '6-7',
+                    'classes' => '',
+                    'fit' => 'cover',
+                ])
+                @endcomponent
+            </div>
+
+            <div class="w-[50%]"
+                x-show="activeId === '2'"
+                x-transition:enter="transition-transform ease-out duration-500"
+                x-transition:enter-start="translate-y-[100%] opacity-0"
+                x-transition:enter-end="translate-y-0 opacity-100"
+
+                @transitionend="hovered = false"
+                x-cloak>
+                @component('components.image_asp.image', [
+                    'url' => 'assets/home/home-services-img-2.png',
+                    'alt' => 'img',
+                    'ratio' => '6-7',
+                    'classes' => '',
+                    'fit' => 'cover',
+                ])
+                @endcomponent
+            </div>
+
+            <div class="w-[50%]"
+                x-show="activeId === '3'"
+                x-transition:enter="transition-transform ease-out duration-500"
+                x-transition:enter-start="translate-y-[100%] opacity-0"
+                x-transition:enter-end="translate-y-0 opacity-100"
+
+                @transitionend="hovered = false"
+                x-cloak>
+                @component('components.image_asp.image', [
+                    'url' => 'assets/home/home-services-img-3.png',
+                    'alt' => 'img',
+                    'ratio' => '6-7',
+                    'classes' => '',
+                    'fit' => 'cover',
+                ])
+                @endcomponent
             </div>
         </div>
+
+
+
+
+
+
     </div>
 
 
@@ -442,3 +681,11 @@
         </div>
     </div>
 @endsection
+
+
+
+
+{{-- help with Let's grow --}}
+{{-- help with building our legacy (about us) --}}
+{{-- help with navbar --}}
+{{-- ask about transfaring classes to scss and updating app.js --}}

@@ -121,7 +121,7 @@
 
 
 
-    <div id="special" class="w-11/12 mx-auto relative text-white mt-20 mb-96">
+    <div id="special" class="w-11/12 mx-auto relative text-white mt-20 mb-96 2xl:mb-[500px]">
         <div id="wrapper" class="absolute h-full w-full">
             @component('components.image_asp.image', [
                 'url' => 'assets/product-details/advantages.png',
@@ -134,7 +134,7 @@
         </div>
         <div class="grid grid-cols-2 place-content-center">
             <div></div>
-            <div class="grid grid-col-1 gap-10">
+            <div class="grid grid-col-1 gap-10 transform translate-y-[50%]">
                 <span class="text-5xl font-extrabold utd-effect">Advantages</span>
                 <div class="flex gap-x-4 items-center rtl-effect">
                     <img src="{{ asset('assets/icons/product-details/tick.svg') }}" alt="">

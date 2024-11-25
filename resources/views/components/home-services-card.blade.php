@@ -1,4 +1,5 @@
-<a wire:navigate href="/service-details" class="flex border border-gray-200 rounded-xl hover:shadow-xl gap-x-4 group p-8">
+<a wire:navigate href="/service-details"
+    class="flex border border-gray-200 rounded-xl hover:shadow-xl gap-x-4 group p-8 ">
     <div class="flex justify-between">
         <div class="w-[10%] mr-10">
             @component('components.image_asp.image', [

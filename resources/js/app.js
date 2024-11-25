@@ -116,5 +116,5 @@ import { inView, animate, scroll } from "motion";
         );
     });
 
-    // animate(".home-services-image", { y: [0, "-100%"] });
+    // animate(".home-services-image", { y: ["100%", 0] }, { duration: 1 });
 })();
