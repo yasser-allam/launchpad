@@ -13,8 +13,8 @@
             </video>
         </div>
 
-        <div class="mx-auto absolute left-0 right-0 px-20 bottom-[20%] z-20">
-            <div class="w-[55vw]">
+        <div class="mx-auto absolute left-0 right-0 bottom-[20%] z-20">
+            <div class="w-[60vw] pl-20">
                 <div class="changing-text text-7xl font-black text-white uppercase leading-relaxed rtl-effect">
                     Powering Your Business In
                     <div class="texts-container">
@@ -224,10 +224,97 @@
         </section>
 
 
-
-
     </div>
-    <div class="h-[200vh] bg-red-500"></div>
+
+
+    {{-- <div class="h-[100vh] bg-red-500"></div> --}}
+
+
+    <div class="h-screen my-32">
+        <div class="flex w-full h-full">
+            <div class="flex flex-col w-[46%] mx-20">
+                <span class="text-5xl font-black uppercase whitespace-pre-line leading-relaxed my-16">
+                    Our Services: Trusted.
+                    Experienced. Skilled.</span>
+                <div class="relative grid grid-cols-1 gap-4 overflow-y-auto snap-y h-[50%]">
+                    <div>
+                        @component('components.home-services-card', [
+                            'img' => 'assets/icons/home/home-services-icon-1.svg',
+                            'title' => 'Consultancy',
+                            'description' =>
+                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis.',
+                        ])
+                        @endcomponent
+                    </div>
+                    <div>
+                        @component('components.home-services-card', [
+                            'img' => 'assets/icons/home/home-services-icon-1.svg',
+                            'title' => 'Consultancy',
+                            'description' =>
+                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis.',
+                        ])
+                        @endcomponent
+                    </div>
+                    <div>
+                        @component('components.home-services-card', [
+                            'img' => 'assets/icons/home/home-services-icon-1.svg',
+                            'title' => 'Consultancy',
+                            'description' =>
+                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis.',
+                        ])
+                        @endcomponent
+                    </div>
+                    <div>
+                        @component('components.home-services-card', [
+                            'img' => 'assets/icons/home/home-services-icon-1.svg',
+                            'title' => 'Consultancy',
+                            'description' =>
+                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis.',
+                        ])
+                        @endcomponent
+                    </div>
+                    <div>
+                        @component('components.home-services-card', [
+                            'img' => 'assets/icons/home/home-services-icon-1.svg',
+                            'title' => 'Consultancy',
+                            'description' =>
+                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis.',
+                        ])
+                        @endcomponent
+                    </div>
+                    <div class="sticky left-0 right-0 bottom-0 h-[10vh] z-10 bg-gradient-to-b from-transparent to-white">
+                    </div>
+                </div>
+
+
+            </div>
+            {{-- help with Let's grow --}}
+            {{-- help with building our legacy (about us) --}}
+            {{-- help with navbar --}}
+            {{-- ask about transfaring classes to scss and updating app.js --}}
+
+            {{-- image not displayed --}}
+            {{-- aslo i want to use the <img> tag instead of component for image so that i can update the src tag dynamically --}}
+            <div id="display" class="w-[50%]">
+                <div class="relative h-full w-full overflow-hidden">
+                    <img class="asp asp-6-7 object-cover absolute top-0 left-0 h-full w-full"
+                        src="{{ asset('assets/home/home-services-img-1.png') }}" alt="img">
+                </div>
+
+                {{-- @component('components.image_asp.image', [
+    'url' => 'assets/home/home-services-img-1.png',
+    'alt' => 'img',
+    'ratio' => '6-7',
+    'classes' => '',
+    'fit' => 'cover',
+])
+                @endcomponent --}}
+            </div>
+        </div>
+    </div>
+
+
+
 
 
 
@@ -240,7 +327,6 @@
             that uniquely
             boost customer engagement</p>
     </div>
-
 
     <div class="w-11/12 mx-auto">
 
@@ -265,7 +351,7 @@
             </div>
         </div>
 
-        <div class="relative rotate-x-60 success-rotate-effect">
+        <div class="relative rotate-xy success-rotate-effect">
             @component('components.image_asp.image', [
                 'url' => 'assets/home/success-image-2.png',
                 'alt' => 'img',

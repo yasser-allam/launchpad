@@ -109,6 +109,12 @@ import { inView, animate, scroll } from "motion";
     }
 
     inView(".success-rotate-effect", ({ target }) => {
-        animate(target, { rotateX: [-60, 0], y: [0, -700] }, { duration: 1.5 });
+        animate(
+            target,
+            { rotateX: [-70, 0], rotateY: [-10, 0], y: [0, "-90%"] },
+            { duration: 1.5 }
+        );
     });
+
+    // animate(".home-services-image", { y: [0, "-100%"] });
 })();

@@ -142,7 +142,7 @@
         </div>
     </div>
 
-    {{-- <div class="w-full bg-black ">
+    <div class="w-full bg-black ">
         <div class="w-11/12 mx-auto text-white mt-20">
             <div class="flex flex-col gap-y-10 ">
                 <div class="w-[55%]  dtu-effect">
@@ -154,12 +154,12 @@
                 <div class="flex items-center w-full  h-[98vh] gap-x-20 ml-10 mb-32 ">
                     <div class="overflow-hidden  w-[40%] rounded-xl relative ">
                         @component('components.image_asp.image', [
-    'url' => 'assets/service-details/how-it-works-img-1.png',
-    'alt' => 'img',
-    'ratio' => '1-1',
-    'classes' => 'mix-blend-luminosity',
-    'fit' => 'cover',
-])
+                            'url' => 'assets/service-details/how-it-works-img-1.png',
+                            'alt' => 'img',
+                            'ratio' => '1-1',
+                            'classes' => 'mix-blend-luminosity',
+                            'fit' => 'cover',
+                        ])
                         @endcomponent
                         <div class="overlay"></div>
                     </div>
@@ -167,7 +167,7 @@
 
                     <div class="w-[40%] h-[760px] overflow-y-scroll snap-y ">
 
-                        @foreach (range(1, 17) as $index)
+                        @foreach (range(1, 7) as $index)
                             <div class="flex flex-col justify-center h-[98vh]">
                                 <span class="uppercase font-black text-5xl leading-relaxed mb-10">Title of the step goes
                                     here</span>
@@ -197,7 +197,7 @@
             </div>
         </div>
 
-    </div> --}}
+    </div>
 
     <div class="h-32"></div>
 @endsection

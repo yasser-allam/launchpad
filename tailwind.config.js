@@ -4,11 +4,11 @@ import defaultTheme from "tailwindcss/defaultTheme";
 
 const plugin = require("tailwindcss/plugin");
 
-// Rotate X utilities
-const rotateX = plugin(function ({ addUtilities }) {
+// Rotate X and Y utilities
+const rotateXY = plugin(function ({ addUtilities }) {
     addUtilities({
-        ".rotate-x-60": {
-            transform: "rotateX(60deg)",
+        ".rotate-xy": {
+            transform: "rotateX(70deg) rotatey(10deg)",
         },
     });
 });
@@ -33,5 +33,5 @@ export default {
             },
         },
     },
-    plugins: [rotateX],
+    plugins: [rotateXY],
 };
